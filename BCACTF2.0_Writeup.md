@@ -383,7 +383,7 @@ red-yellow-red flag -> 1
 01100111 01101010 01110011 01101101 01110111 01110011 01111011 00110001 01111000 01011111 01101111 00110001 01101011 01011111 01111000 00110100 01110000 01110010 01011111 01101100 00110011 01111001 00110100 01101010 01101110 00111111 01111101
 ```
 
-> Convert from binary to ascii using [CyberChef ‘From Binary – 8 bits’](https://gchq.github.io/CyberChef/#recipe=From_Binary('Space',8)&input=MDExMDAxMTEgMDExMDEwMTAgMDExMTAwMTEgMDExMDExMDEgMDExMTAxMTEgMDExMTAwMTEgMDExMTEwMTEgMDAxMTAwMDEgMDExMTEwMDAgMDEwMTExMTEgMDExMDExMTEgMDAxMTAwMDEgMDExMDEwMTEgMDEwMTExMTEgMDExMTEwMDAgMDAxMTAxMDAgMDExMTAwMDAgMDExMTAwMTAgMDEwMTExMTEgMDExMDExMDAgMDAxMTAwMTEgMDExMTEwMDEgMDAxMTAxMDAgMDExMDEwMTAgMDExMDExMTAgMDAxMTExMTEgMDExMTExMDE). We get `gjsmws{1x_o1k_x4pr_l3y4jn?}`, which seems like a flag format. Since we have obtaind a key earlier, this could be a vigenere-cipher which can be [decoded](https://www.dcode.fr/vigenere-cipher) using the key `fhskdn`.
+> Convert from binary to ascii using [CyberChef ‘From Binary – 8 bits’](https://gchq.github.io/CyberChef/#recipe=From_Binary('Space',8)&input=MDExMDAxMTEgMDExMDEwMTAgMDExMTAwMTEgMDExMDExMDEgMDExMTAxMTEgMDExMTAwMTEgMDExMTEwMTEgMDAxMTAwMDEgMDExMTEwMDAgMDEwMTExMTEgMDExMDExMTEgMDAxMTAwMDEgMDExMDEwMTEgMDEwMTExMTEgMDExMTEwMDAgMDAxMTAxMDAgMDExMTAwMDAgMDExMTAwMTAgMDEwMTExMTEgMDExMDExMDAgMDAxMTAwMTEgMDExMTEwMDEgMDAxMTAxMDAgMDExMDEwMTAgMDExMDExMTAgMDAxMTExMTEgMDExMTExMDE). We get `gjsmws{1x_o1k_x4pr_l3y4jn?}`, which seems like a flag format. Since we have obtained a key earlier, this could be a vigenere-cipher which can be [decoded](https://www.dcode.fr/vigenere-cipher) using the key `fhskdn`.
 
 `bcactf{1s_h1s_n4me_g3r4rd?}`
 
