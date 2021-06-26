@@ -426,7 +426,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 > This challenge provides us with a zip file containing a flag.txt and homework.txt. However, they are both protected with a password.
 
-> There must be some way to brute-force the password. The first hint directed me to the [fcrackzip](https://mattcasmith.net/2020/09/12/cracking-password-protected-zip-file-fcrackzip) package, which the second hint provided the [wordlist](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) used to brute-force common passwords. We then run the command, following the documentation.
+> There must be some way to brute-force the password. The first hint directed me to the [fcrackzip](https://mattcasmith.net/2020/09/12/cracking-password-protected-zip-file-fcrackzip) package, while the second hint provided the [rockyou wordlist](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) used to brute-force common passwords. We then run the command, following the documentation.
 
 ![image](https://user-images.githubusercontent.com/68913871/123507820-34909700-d69e-11eb-860e-a9a28509d36e.png)
 
