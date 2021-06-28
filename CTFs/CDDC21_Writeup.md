@@ -12,8 +12,7 @@
 3. *Wee Kiat*
 4. *Jun Wei*
 
-**Day1 Position:** *89/417*  
-**Final Position:** *Estimated 40~50/417*
+**Final Position:** *[61/417](https://user-images.githubusercontent.com/68913871/123620688-144b0e80-d83d-11eb-8353-3f0448d9a9e8.png)*
 
 ![image](https://user-images.githubusercontent.com/68913871/123534548-8eea3000-d750-11eb-96a6-faccb3e04b11.png)
 
@@ -87,7 +86,7 @@ After the Event:
 
 ![image](https://user-images.githubusercontent.com/68913871/123536888-6cabde80-d75f-11eb-9aae-b7c34799e4bc.png)
 
-- Did not release the full scoreboard at the end of the event despite emailing them.
+- Did not release the full scoreboard at the end of the event. Had to specially email the organizers to inquire.
 
 ![image](https://user-images.githubusercontent.com/68913871/123536829-1dfe4480-d75f-11eb-8cab-96563d7b735a.png)
 
