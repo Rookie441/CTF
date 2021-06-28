@@ -70,7 +70,9 @@
 [bca-mart.c](https://objects.bcactf.com/bcactf2/bca-mart/bca-mart.c)  
 [bca-mart](https://objects.bcactf.com/bcactf2/bca-mart/bca-mart)
 
-> This binary exploitation challenge requires knowledge about [2’s complement representation of negative numbers.](https://www.networkworld.com/article/3010974/whats-so-special-about-2147483648.html)  
+> In this challenge, we are given $10 as well as a list of items to purchase at the BCA mart. Of course, we want to purchase option 6: Flag. However, the price of the flag is $100 and we do not have enough money.
+
+> This binary exploitation challenge requires knowledge about [2’s complement representation of negative numbers](https://www.networkworld.com/article/3010974/whats-so-special-about-2147483648.html) and the idea is to trick the mart into selling the flag for a negative price which we can afford.
 
 > Input greater than 2,147,483,647 will be detected as prankster and having too small a value will make the cost to be too large to afford.
 
