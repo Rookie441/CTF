@@ -53,7 +53,7 @@ The next day, I logged in at 10:00 and faced the same authentication issues but 
 
 ![image](https://user-images.githubusercontent.com/68913871/123535728-3e76d080-d758-11eb-9148-00f88192514e.PNG)
 
-How ironic, for a cyber security competition to host the event using an insecure website. I casted all the negative emotions aside and started attempting the questions.
+How ironic, for a cyber security competition to host the event over an insecure protocol. I casted all the negative emotions aside and started attempting the questions.
 
 # Other Issues
 
