@@ -25,7 +25,6 @@
 | [Event Breakdown](#event-breakdown) |
 | [Other Issues](#other-issues) |
 | [Challenges](#challenges) |
-| [Workings](#workings) |
 
 # Event Breakdown
 
@@ -404,52 +403,5 @@ print(flag)
 ```
 
 `CDDC21{Th!s_3ncripti0n_!s_n0t_that_h@rd}`
-
-# Workings
-
-> enum4linux -u "John" -p "#johnIStheBEST!" -a 18.136.74.102
-
-![image](https://user-images.githubusercontent.com/68913871/123540588-61ae7980-d772-11eb-91ff-3e3cf0a8fdc8.png)
-
-`CDDC21{GDC2!_1nte4NaL}`
-
-![image](https://user-images.githubusercontent.com/68913871/123540662-bbaf3f00-d772-11eb-925d-27d0b1a42f6d.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540665-be119900-d772-11eb-89be-1d03f53d7696.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540669-c10c8980-d772-11eb-9234-8e10de8b59d6.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540671-c4a01080-d772-11eb-92d1-b6946644dcc3.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540696-e6999300-d772-11eb-9c9b-8e4e6b0667d2.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540725-0b8e0600-d773-11eb-8347-a827fd1fc620.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540728-0e88f680-d773-11eb-8c03-56b6c630672e.png)
-
-> Base64 Decode:  
-O:10:"ValidOrNot":4:{s:7:"logFile";s:12:"logs/log.txt";s:7:"logData";s:20:"abc is not an admin.";s:8:"username";s:3:"abc";s:7:"isAdmin";s:1:"0";}
-
-![image](https://user-images.githubusercontent.com/68913871/123540780-4db74780-d773-11eb-9f4a-77b2f24268ed.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540752-35472d00-d773-11eb-99aa-61fe95a819cf.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540757-38421d80-d773-11eb-9e1c-ee7784cfbeb6.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540762-3b3d0e00-d773-11eb-8794-6b56de2d5be4.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540800-658ecb80-d773-11eb-8143-cca64ed53f24.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540803-6889bc00-d773-11eb-87d4-096af9cb15eb.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540816-77706e80-d773-11eb-82f0-56983ba8a58a.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123777012-61dd7f00-d902-11eb-97ec-21176b086f4a.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540829-89eaa800-d773-11eb-8486-78c824275cc2.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540839-94a53d00-d773-11eb-8b05-b5b3dfad2a22.png)
-
-![image](https://user-images.githubusercontent.com/68913871/123540841-97a02d80-d773-11eb-9898-f642fd438747.png)
 
 ## [Go to Top](#cddc21-brainhack)
