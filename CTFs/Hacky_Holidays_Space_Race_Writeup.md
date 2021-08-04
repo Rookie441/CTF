@@ -17,24 +17,24 @@
 
 | Challenge | Category |
 | --- | --- |
-| [TEASER-su-admin](#teaser-su-admin)	| Web |
-| [TEASER-Locked-Out](#teaser-locked-out) | Cloud |
+| [TEASER su admin](#teaser-su-admin)	| Web |
+| [TEASER Locked Out](#teaser-locked-out) | Cloud |
 | [BowShock](#bowshock) | Reversing |
-| [Enumerating-the-Cloud](#enumerating-the-cloud) |	Cloud |
-| [Quantum-Snacks](#quantum-snacks) | Quantum |
+| [Enumerating the Cloud](#enumerating-the-cloud) |	Cloud |
+| [Quantum Snacks](#quantum-snacks) | Quantum |
 | [UFOria](#uforia) | Web, Osint |
-| [Space-Snacks](#space-snacks) | Misc, Crypto |
-| [Unitentifi3d-Flying-Object](#unitentifi3d-flying-object) | Stego |
-| [Stolen-Research](#stolen-research) | Forensics |
-| [Power-Snacks](#power-snacks) | Powershell |
-| [Quantum-Shuttle](#quantum-shuttle) | Quantum |
+| [Space Snacks](#space-snacks) | Misc, Crypto |
+| [Unitentifi3d Flying Object](#unitentifi3d-flying-object) | Stego |
+| [Stolen Research](#stolen-research) | Forensics |
+| [Power Snacks](#power-snacks) | Powershell |
+| [Quantum Shuttle](#quantum-shuttle) | Quantum |
 
 **About:** I was intrigued when I noticed that this CTF spanned a duration of 1 month as most CTFs usually lasts for about 2-3 days. I decided to give it a shot and was surprised by the repertoire of categories available such as cloud, powershell and quantum, which were very interesting to solve. Definitely a novel experience and suited for a beginner.
 
 **Disclaimer:** This is not a professional writeup. Its core purpose is to serve as memory and/or personal education.  
 
 # Challenges
-## TEASER-su-admin
+## TEASER su admin
 
 ![image](https://user-images.githubusercontent.com/68913871/126033313-11ad0817-fced-4d27-aaf5-31b63159c732.png)
 
@@ -70,7 +70,7 @@ After further exploration, I realized that overlay #2 is the layer we are lookin
 
 ### [Go to Top](#hacky_holidays-space_race)
 
-## TEASER-locked-out
+## TEASER locked out
 
 ![image](https://user-images.githubusercontent.com/68913871/126036373-b2838579-da17-4bbf-bbb8-80fd02057e2e.png)
 
@@ -207,7 +207,7 @@ Upon further analysis, we can also see that the bowShock() function is executed 
 
 ### [Go to Top](#hacky_holidays-space_race)
 
-## Enumerating-The-Cloud
+## Enumerating The Cloud
 
 ![image](https://user-images.githubusercontent.com/68913871/126038023-184096a7-be34-4993-a93c-72f4a07677cc.png)
 
@@ -512,7 +512,7 @@ The periscope data is optimal. Have a flag for your effort: CTF{9177a9c8bb1cd5c8
 
 ### [Go to Top](#hacky_holidays-space_race)
 
-## Quantum-Snacks
+## Quantum Snacks
 
 ![image](https://user-images.githubusercontent.com/68913871/126038879-ff79cc25-ac10-4957-a32e-6a7e3eb8fdf1.png)
 
@@ -720,7 +720,7 @@ In fact, we just need to flip it, so we append an `X` to get `XZX` as the soluti
 
 ### [Go to Top](#hacky_holidays-space_race)
 
-## Space-Snacks
+## Space Snacks
 
 ![image](https://user-images.githubusercontent.com/68913871/126041746-0d835c41-900b-4b30-bb39-2611ba0a4a3d.png)
 
@@ -793,7 +793,7 @@ INSPECTOR MORSE WOULD BE PROUD OF YOUR EFFORTS. CTF:SPACEDASH2021 ACCESS CODE: J
 
 ### [Go to Top](#hacky_holidays-space_race)
 
-## Unitentifi3d-Flying-Object
+## Unitentifi3d Flying Object
 
 ![image](https://user-images.githubusercontent.com/68913871/126042325-567357eb-4812-4f2b-bd72-32631e7a59ae.png)
 
@@ -845,7 +845,7 @@ INSPECTOR MORSE WOULD BE PROUD OF YOUR EFFORTS. CTF:SPACEDASH2021 ACCESS CODE: J
 
 ### [Go to Top](#hacky_holidays-space_race)
 
-## Stolen-Research
+## Stolen Research
 
 ![image](https://user-images.githubusercontent.com/68913871/126042758-f5cf2428-acb4-4340-97db-6cb0b78fe49c.png)
 
@@ -866,7 +866,7 @@ INSPECTOR MORSE WOULD BE PROUD OF YOUR EFFORTS. CTF:SPACEDASH2021 ACCESS CODE: J
 
 ### [Go to Top](#hacky_holidays-space_race)
 
-## Power-Snacks
+## Power Snacks
 
 ![image](https://user-images.githubusercontent.com/68913871/126042854-04561f3e-bfb0-4e15-bc3f-ab6fb65e3444.png)
 
@@ -1062,7 +1062,7 @@ print(sorted(finalList, key=len))
 
 ### [Go to Top](#hacky_holidays-space_race)
 
-## Quantum-Shuttle
+## Quantum Shuttle
 
 ![image](https://user-images.githubusercontent.com/68913871/126043514-0f6c8a91-292f-4efd-982f-0cb7c175d9c3.png)
 
