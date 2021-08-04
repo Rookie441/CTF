@@ -9,3 +9,4 @@ Writeups sorted by Chronological order:
 3. [CDDC21](https://github.com/Rookie441/CTF/blob/main/CTFs/CDDC21_Writeup.md)
 4. [HackyHolidaysSpaceRace](https://github.com/Rookie441/CTF/blob/main/CTFs/Hacky_Holidays_Space_Race_Writeup.md) ✔️
 5. [ImaginaryCTF2021](https://github.com/Rookie441/CTF/blob/main/CTFs/ImaginaryCTF2021_Writeup.md)
+6. [UIUCTF2021](https://github.com/Rookie441/CTF/blob/main/CTFs/UIUCTF2021_Writeup.md)
