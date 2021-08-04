@@ -14,7 +14,7 @@
 | Challenge | Category |
 | --- | --- |
 | [Formatting](#formatting)	| Misc |
-| [Spelling-Test](#spelling-test)	| Misc |
+| [Spelling Test](#spelling test)	| Misc |
 | [Vacation](#vacation) | Misc |
 | [stackoverflow](#stackoverflow) | Pwn |
 
@@ -67,7 +67,7 @@ In essence: whoever controls the format string can access potentially internal a
 
 `ictf{c4r3rul_w1th_f0rmat_str1ngs_4a2bd219}`
 
-## Spelling-Test
+## Spelling Test
 
 ![image](https://user-images.githubusercontent.com/68913871/127271980-6473a4c6-763e-4430-847b-b8c8f03ca591.png)  
 [words.txt](https://imaginaryctf.org/r/CBC8-words.txt)
