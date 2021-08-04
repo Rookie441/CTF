@@ -14,7 +14,7 @@
 | Challenge | Category |
 | --- | --- |
 | [Formatting](#formatting)	| Misc |
-| [Spelling Test](#spelling test)	| Misc |
+| [Spelling Test](#spelling-test)	| Misc |
 | [Vacation](#vacation) | Misc |
 | [stackoverflow](#stackoverflow) | Pwn |
 
