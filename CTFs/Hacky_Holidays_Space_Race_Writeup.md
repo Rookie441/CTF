@@ -24,7 +24,7 @@
 | [Quantum Snacks](#quantum-snacks) | Quantum |
 | [UFOria](#uforia) | Web, Osint |
 | [Space Snacks](#space-snacks) | Misc, Crypto |
-| [Unitentifi3d Flying Object](#unitentifi3d-flying-object) | Stego |
+| [Unidentifi3d Flying Object](#unidentifi3d-flying-object) | Stego |
 | [Stolen Research](#stolen-research) | Forensics |
 | [Power Snacks](#power-snacks) | Powershell |
 | [Quantum Shuttle](#quantum-shuttle) | Quantum |
@@ -793,7 +793,7 @@ INSPECTOR MORSE WOULD BE PROUD OF YOUR EFFORTS. CTF:SPACEDASH2021 ACCESS CODE: J
 
 ### [Go to Top](#hacky_holidays-space_race)
 
-## Unitentifi3d Flying Object
+## Unidentifi3d Flying Object
 
 ![image](https://user-images.githubusercontent.com/68913871/126042325-567357eb-4812-4f2b-bd72-32631e7a59ae.png)
 
