@@ -1,4 +1,4 @@
-# [UIUCTF2021](https://uiuc.tf/)
+# [UIUCTF2021](https://ctftime.org/event/1372)
 
 <img align="left" width="200" height="175" src="https://user-images.githubusercontent.com/68913871/128167399-bee1608c-555c-4fd3-903c-c7cef6d2f5e0.png">
 
