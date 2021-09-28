@@ -1,4 +1,4 @@
-# [DownUnderCTF2021](https://play.duc.tf/)
+# [DownUnderCTF2021](https://ctftime.org/event/1312)
 
 <img align="left" width="200" height="175" src=https://user-images.githubusercontent.com/68913871/134802390-b88491b8-8a36-4f8e-a636-b6a32a247bef.png>
 
