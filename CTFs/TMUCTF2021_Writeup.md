@@ -1,4 +1,4 @@
-# [TMUCTF2021](https://www.tmuctf.ir/)
+# [TMUCTF2021](https://ctftime.org/event/1427)
 
 <img align="left" width="200" height="175" src="https://user-images.githubusercontent.com/68913871/132789141-88a5c5cb-646a-448f-8afc-f676690dda1d.png">
 
