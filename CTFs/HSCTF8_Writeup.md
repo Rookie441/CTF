@@ -1,4 +1,4 @@
-# [HSCTF 8](https://ctf.hsctf.com/)
+# [HSCTF 8](https://ctftime.org/event/1264)
 
 <img align="left" width="200" height="175" src="https://user-images.githubusercontent.com/68913871/123514325-0d998b80-d6c5-11eb-971b-1f57a422681e.png">
 
