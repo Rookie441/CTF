@@ -13,3 +13,4 @@ A compilation of interesting challenges in my CTF journey:
 6. [UIUCTF2021](https://github.com/Rookie441/CTF/blob/main/CTFs/UIUCTF2021_Writeup.md)
 7. [TMUCTF2021](https://github.com/Rookie441/CTF/blob/main/CTFs/TMUCTF2021_Writeup.md)
 8. [DownUnderCTF2021](https://github.com/Rookie441/CTF/blob/main/CTFs/DownUnderCTF2021_Writeup.md) 👨‍💻
+9. [TamilCTF2021](https://github.com/Rookie441/CTF/blob/main/CTFs/TamilCTF2021_Writeup.md)
