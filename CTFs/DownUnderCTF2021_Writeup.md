@@ -9,6 +9,8 @@
 &nbsp; **Team Member(s):**  
 &nbsp; 1. *Lee Wen Bin Andre*  
 
+**Final Position:** *[367/2133](https://user-images.githubusercontent.com/68913871/135020243-7facf0b7-c32d-4d4f-8dbb-0ce6e5785cfa.jpg)*
+
 <br/><br>
 
 | Challenge | Category |
