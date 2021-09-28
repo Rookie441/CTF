@@ -1,4 +1,4 @@
-# [ImaginaryCTF2021](https://2021.imaginaryctf.org/)
+# [ImaginaryCTF2021](https://ctftime.org/event/1384)
 
 <img align="left" width="200" height="175" src="https://user-images.githubusercontent.com/68913871/127268030-8804cadb-df78-4deb-a02f-b0d8745399a7.png">
 
