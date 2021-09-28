@@ -1,4 +1,4 @@
-# [BCACTF 2.0](https://play.bcactf.com/)<a name="bcactf-2"></a>
+# [BCACTF 2.0](https://ctftime.org/event/1369)<a name="bcactf-2"></a>
 
 <img align="left" width="200" height="175" src="https://user-images.githubusercontent.com/68913871/123500036-9f75aa00-d66d-11eb-9b3d-e05bb173b405.png">
 
