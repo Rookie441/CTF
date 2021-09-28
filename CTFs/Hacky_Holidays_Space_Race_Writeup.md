@@ -1,4 +1,4 @@
-# [Hacky_Holidays-SPACE_RACE](https://hackyholidays.io)
+# [Hacky_Holidays-SPACE_RACE](https://ctftime.org/event/1383)
 
 <img align="left" width="200" height="200" src="https://user-images.githubusercontent.com/68913871/126026520-8bde8602-ccb2-4946-8485-56fa3fe5ed31.png">
 
