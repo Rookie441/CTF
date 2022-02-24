@@ -241,6 +241,8 @@ Bloody Ripper! Here is the grand prize!
 
 > This method is inspired by a similar challenge I did during BCACTF2.0 - [Infinite Zip](https://github.com/Rookie441/CTF/blob/main/CTFs/BCACTF2.0_Writeup.md#forensics).
 
+> My solution won the "Best Write Up with an Unintended Solution" prize money of AUD$50. [twitter link](https://twitter.com/DownUnderCTF/status/1452544420448858119).
+
 `DUCTF{babushkas_v0dka_was_h3r3}`
 
 ## Substitution Cipher I
