@@ -19,7 +19,7 @@
 | [babyreeee](#babyreeee)	| Rev |
 | [BestSoftware](#bestsoftware) | Rev |
 | [Sourceless Guessy Web Baby Flag](#sourceless-guessy-web-baby-flag) | Web |
-| [Close Enough](#close-enough) | Crpyto |
+| [Close Enough](#close-enough) | Crypto |
 | [Everyone Needs a Break](#everyone-needs-a-break) | Osint |
 | [Regex101](#regex101) | Misc |
 
