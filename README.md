@@ -16,6 +16,6 @@ A compilation of interesting challenges in my CTF journey:
 9. [TamilCTF2021](https://github.com/Rookie441/CTF/blob/main/CTFs/TamilCTF2021_Writeup.md)
 
 2022
-1. EZCTF2022 --> To be uploaded
+1. [EZCTF2022](https://github.com/Rookie441/CTF/blob/main/CTFs/EZCTF2022_Writeup.md)
 2. [SEETF2022](https://github.com/Rookie441/CTF/blob/main/CTFs/SEETF2022_Writeup.md)
 3. BCACTF3.0 --> To be uploaded
