@@ -152,7 +152,7 @@ DghDf4eRAEVzBzGkLrhGpjPLqnaSig==
 
 > We can tell that this is the correct person because he has been dismissed from his photo company as mentioned in his blogpost. Under his tweets, we see a secret. If we change the `x` to `t`, we get https://bit.ly/3rVJKns which is a password protected zip file.
 
-> We still need to find the password. After some trial and error, we found our that he has a Youtube account with the name `rayet0913`.
+> We still need to find the password. After some trial and error, we found out that he has a Youtube account with the name `rayet0913`.
 
 ![image](https://user-images.githubusercontent.com/68913871/175226853-62d20c93-1fc2-48dd-ae24-7a55e379ab71.png)
 
@@ -302,7 +302,7 @@ snmpget -v1 -c public1 13.215.173.140 iso.3.6.1.2.1.1.1.0
 
 > The SNMP request gets sent out successfully and we see that the flag is attached behind the response.
 
-`CDDC22{L34king_SNMP_C0mmunity_$}`
+`CDDC22{L34king_SNMP_C0mmunity_$}` [Go to Top](#CDDC22) ⬆️
 
 ## Web
 
@@ -1236,6 +1236,4 @@ for backPart in range(0, 255):
 		pass
 ```
 
-`CDDC22{D1ffi3_H3llm4n_k3y_3xch@ng3_D0ne!}`
-
-## [Go to Top](#CDDC22)
+`CDDC22{D1ffi3_H3llm4n_k3y_3xch@ng3_D0ne!}` [Go to Top](#CDDC22) ⬆️
