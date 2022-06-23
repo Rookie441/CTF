@@ -268,7 +268,41 @@ crunch 8 8 0123456789 -t 2@@@@2@@ -o customwordlist
 
 ![image](https://user-images.githubusercontent.com/68913871/175237231-306613ec-dc76-4251-8cc6-114d07713324.png)
 
-> Pending writeup from Elvis
+> This challenge was done by Elvis. This is his writeup:
+
+> We are given a pcapng file. Open it using Wireshark. The aim is to obtain details about a printer inside the pcapng file, and use the information to craft a SNMP request to send to the printer.
+
+> The challenge description tells us to look for the oid value: `iso.3.6.1.2.1.1.1.0` We do it in the following way:
+
+![image](https://user-images.githubusercontent.com/68913871/175345859-75817c9c-7f14-4344-8b59-0b53b6225a3d.png)
+
+```
+Step 1: Click the Search Button
+Step 2: Select ‘String’ in the dropdown to indicate that you want to search for a string.
+Step 3: Select ‘Packet Details’ in the left dropdown to indicate that you want to restrict the search area to only cover the details of the packets.
+Step 4: Enter the string that you want to search for inside the textbox.
+Step 5: Click the “Find” button to begin searching.
+```
+
+> The search will show that Packets 3 and 4 contains the oid value that we are searching for. We examine Packet 3 more closely:
+
+![image](https://user-images.githubusercontent.com/68913871/175346019-8e56a8d8-2619-4a76-b7f2-c2268a634998.png)
+
+> From the information in this packet, we can see that the SNMP version used is `version-1` and the community string is `public1`.
+
+> Next, we want to start crafting the command that sends the SNMP request to the printer. We look at the `snmpget` command’s help message:
+
+![image](https://user-images.githubusercontent.com/68913871/175346196-185692b4-1fc0-424f-a1f7-ddc483404fdb.png)
+
+> We can use the `-v` flag to specify the SNMP version to use and the `-c` flag to specify the community string.
+
+```
+snmpget -v1 -c public1 13.215.173.140 iso.3.6.1.2.1.1.1.0
+```
+
+> The SNMP request gets sent out successfully and we see that the flag is attached behind the response.
+
+`CDDC22{L34king_SNMP_C0mmunity_$}`
 
 ## Web
 
@@ -1053,6 +1087,155 @@ ns wyy ixsu kfmex rri tskcxipo tycwuyvb? sj wyy ukrr ds eox y ppyq, cme rcoh ry 
 
 ![image](https://user-images.githubusercontent.com/68913871/175288876-cb9bb875-0475-42e9-80c3-fa2befac08ef.png)
 
-> Pending writeup from Elvis
+> This challenge was done by Elvis. This is his writeup:
+
+> First we unzip the `dh_server` zip file that is provided and we find a log file:
+
+```
+[+] Prime: 0xf9aecd571c9afadaceae0004000c64fceb6720f717756dab1f12b2ed7fd211a13024735efeb80a8f7982a0787d4a2eb866b18b8e7d62f2b92f6bd0d7ca52b2cd18e7b508d1af3c69eee907ab9bde2cca7f6cea613954d98a3f8e0c52761937636afb2b6776ac7f4ac02af12e72f4f4905dbeac3e4e856c8542bbda24106161d9
+[+] Server Key: 0xf081ffd7fade2b78fc3e3182c50ca1067c9aeecdfd1484fd842bf0821f5efaa091f55a82313f693cdd8a4c65e1c876cfa68ba6980f4788cb5a9ba845469cd2f3d4b94281a3ad426c6092d8cf1de9368992d05c319b45a9a867788ad877a90862446d67a397f30ba91b9df06447b823be8e2c0bba998f548888f638401931ad99
+[+] Please give me your key :
+>> 101752188851588702786663864886064578902654651951985866839003796634186954471878272123772894282171928731095228234190527287304860559135921159182420718259970442394992811637314757293507073993913485850566751318782466533493182193918336800513466736844109978537994535285068729297204514757610248021028835645897421370304
+[+] This encrypted flag : 8fceb2a29cc2d7abd8ecfc8da5dc1eea6f67f7a0b047749d66ef8886bb33c720dfc5dd4e508bd1e4a811c62b83f98e65
+privkey leaked : 0x3e1591ea4e4eef19c99626ab1d15d442becbbd2b7d7a4150ee8f1af3f0adf9df47a53823ddfe83c6a7fa4b1b5dfa319021b26dec15c385d3869c7a7ce039b8519318563602d846ea242550bbac73dfc20a27c19b119820e45589cc6f54e9bafc50befbe222aa2738a35f5fca17ca7eec71ce24449ed21fd46b92ca11080001__
+```
+
+> We can obtain the `prime p`, `server public key x`, `myKey y`, `encrypted flag` and `server private key a` from the log file.
+
+> Other than this log file we find a `DH.py`
+
+```python
+#!/usr/bin/python3
+from Crypto.Util.number import getPrime
+from Crypto.Util.Padding import pad, unpad
+from Crypto.Cipher import AES
+import hashlib
+import random
+
+class DH(object):
+    def __init__(self, p):
+        self.p = p
+        self.g = 2
+        self.privkey = random.randint(2, self.p - 1)
+
+    def get_pubkey(self):
+        self.k = pow(self.g, self.privkey, self.p)
+        return self.k
+
+    def set_shared_key(self, k):
+        self.sk = pow(k, self.privkey, self.p)
+        aes_key = hashlib.md5(str(self.sk).encode()).digest()
+        self.cipher = AES.new(aes_key, AES.MODE_ECB)
+
+    def encrypt(self, pt):
+        return self.cipher.encrypt(pad(pt, 16)).hex()
+
+    def decrypt(self, ct):
+        return unpad(self.cipher.decrypt(bytes.fromhex(ct)), 16)
+
+    def leak_privkey(self):
+        print (f"privkey leaked : {self.privkey:#x}")
+```
+
+> We also have `server.py`:
+
+```python
+#!/usr/bin/python3
+from DH import *
+
+flag = open("flag", "r").read().encode()
+prime = getPrime(1024)
+print(f"[+] Prime: {hex(prime)}")
+server = DH(prime)
+
+server_k = server.get_pubkey()
+print(f"[+] Server Key: {hex(server_k)}")
+print("[+] Please give me your key :")
+
+# ----------------------------
+# receive client public key  
+client_k = int(input(">> "))
+#
+# ----------------------------
+
+server.set_shared_key(client_k)
+print(f"[+] This encrypted flag : {server.encrypt(flag)}")
+server.leak_privkey()
+```
+
+> From here we can see that the `DH.py` file contains a class that carries out all the Diffie-Hellman stuff, and the `server.py` file makes use of the `DH.py` file to do things, and that `server.py` is the python file which was ran to encrypt the flag.
+
+> Hence I created another python script that makes use of the info found in the log file to decrypt the flag.
+
+![image](https://user-images.githubusercontent.com/68913871/175347185-14223a98-2606-4431-8ccd-b90bce1726c7.png)
+
+> First I process all the hex numbers into integers. Notice that inside the log file, at the back of the leaked private key, there are 2 underscores.
+
+![image](https://user-images.githubusercontent.com/68913871/175347234-440f0e6d-d4b2-44fd-bc8d-9fe3bbba7821.png)
+
+> After a while of trying things, eventually we figured out that the underscores means that any 2 hex characters could be in that position. The second part of the script deals with this by iterating through all 255 possibilities (from 00 to FF) and appends it to the back of the private key.
+
+> Next, at line 33 I calculate the value of the key by using the formula:
+`Key – k = [keyFromClient – y] ^ [serverPrivateKey – a] mod [prime p]`
+It is done using python’s pow function (3rd parameter takes in modulo)
+
+> Next I create the AES Cipher using ECB mode in the same way as in the `DH.py` file and try to decrypt the encrypted flag and unpad it. It is in a try block so that the script will continue running even if unpad fails.
+
+![image](https://user-images.githubusercontent.com/68913871/175347308-8d2f1e83-10d2-4fdf-8964-bd655751b9da.png)
+
+> After that I print the result if unpadding succeeds to see if it is the flag. Out of all 255 possibilities, only 1 unpadded correctly and it is the flag.
+
+![image](https://user-images.githubusercontent.com/68913871/175347375-30ade072-165d-4746-833b-65b4938a2469.png)
+
+> Final script:
+
+```python
+from Crypto.Util.Padding import pad, unpad
+from Crypto.Cipher import AES
+import hashlib
+import math
+
+primeHex = "0xf9aecd571c9afadaceae0004000c64fceb6720f717756dab1f12b2ed7fd211a13024735efeb80a8f7982a0787d4a2eb866b18b8e7d62f2b92f6bd0d7ca52b2cd18e7b508d1af3c69eee907ab9bde2cca7f6cea613954d98a3f8e0c52761937636afb2b6776ac7f4ac02af12e72f4f4905dbeac3e4e856c8542bbda24106161d9"
+
+serverKey = "0xf081ffd7fade2b78fc3e3182c50ca1067c9aeecdfd1484fd842bf0821f5efaa091f55a82313f693cdd8a4c65e1c876cfa68ba6980f4788cb5a9ba845469cd2f3d4b94281a3ad426c6092d8cf1de9368992d05c319b45a9a867788ad877a90862446d67a397f30ba91b9df06447b823be8e2c0bba998f548888f638401931ad99"
+
+myKey = 101752188851588702786663864886064578902654651951985866839003796634186954471878272123772894282171928731095228234190527287304860559135921159182420718259970442394992811637314757293507073993913485850566751318782466533493182193918336800513466736844109978537994535285068729297204514757610248021028835645897421370304
+
+encFlag = "0x8fceb2a29cc2d7abd8ecfc8da5dc1eea6f67f7a0b047749d66ef8886bb33c720dfc5dd4e508bd1e4a811c62b83f98e65"
+
+privateKeyLeaked = "0x3e1591ea4e4eef19c99626ab1d15d442becbbd2b7d7a4150ee8f1af3f0adf9df47a53823ddfe83c6a7fa4b1b5dfa319021b26dec15c385d3869c7a7ce039b8519318563602d846ea242550bbac73dfc20a27c19b119820e45589cc6f54e9bafc50befbe222aa2738a35f5fca17ca7eec71ce24449ed21fd46b92ca11080001"
+
+
+
+primeInt = int(primeHex, 0)
+serverKeyInt = int(serverKey, 0)
+encFlagInt = int(encFlag, 0)
+
+
+for backPart in range(0, 255):
+
+	hexstrToAdd = str(hex(backPart))[2:]
+
+	if (backPart < 16):
+		hexstrToAdd = "0" + hexstrToAdd
+
+	privKeyAddedBack = privateKeyLeaked + hexstrToAdd
+	privateKeyLeakedInt = int(privKeyAddedBack, 0)
+
+	mySk = pow(myKey, privateKeyLeakedInt, primeInt)
+
+	try:
+		aesKey = hashlib.md5(str(mySk).encode()).digest()
+		theCipher = AES.new(aesKey, AES.MODE_ECB)
+
+		theBytes = bytes.fromhex(encFlag[2:])
+		decrypted = theCipher.decrypt(theBytes)
+
+		print(unpad(decrypted, 16).decode('utf-8'))
+	except:
+		pass
+```
+
+`CDDC22{D1ffi3_H3llm4n_k3y_3xch@ng3_D0ne!}`
 
 ## [Go to Top](#CDDC22)
