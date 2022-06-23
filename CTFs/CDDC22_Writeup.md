@@ -682,17 +682,17 @@ from pwn import *
 
 #                    CHANGE THIS
 # ===========================================================
-prompt = b":"	     # Char prompt for user input
-exe = './overwriteme' # Name of binary file
+prompt = b":"	            # Char prompt for user input
+exe = './overwriteme'       # Name of binary file
 
-def rop_exploit():	# Name of win function + argument(s) in brackets (separate with commas)
+def rop_exploit():	    # Name of win function + argument(s) in brackets (separate with commas)
     rop.printflag()
 
 
 # Optional parameters
-cyclic_size = 200		       # Change if buffer size is large
-save_payload = False		   # Set True to save payload into a file
-show_checksec = False		 # Set True to see security info
+cyclic_size = 200           # Change if buffer size is large
+save_payload = False	    # Set True to save payload into a file
+show_checksec = False	    # Set True to see security info
 context.log_level = 'info'  # info/debug/error/warning
 # ===========================================================
 
