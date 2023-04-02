@@ -21,7 +21,6 @@
 ## Formatting
 
 ![image](https://user-images.githubusercontent.com/68913871/127269715-17aaa809-c790-4f9c-af97-06d811d7d0bf.png)  
-[stonks.py](https://imaginaryctf.org/r/14BD-stonks.py)
 
 ```python
 #!/usr/bin/env python3
@@ -70,7 +69,6 @@ In essence: whoever controls the format string can access potentially internal a
 ## Spelling Test
 
 ![image](https://user-images.githubusercontent.com/68913871/127271980-6473a4c6-763e-4430-847b-b8c8f03ca591.png)  
-[words.txt](https://imaginaryctf.org/r/CBC8-words.txt)
 
 > Create a python script using the `autocorrect` module to detect misspelled words.
 
@@ -106,7 +104,6 @@ ictfyoupassedthespellingtest
 ## Vacation
 
 ![image](https://user-images.githubusercontent.com/68913871/127273077-5f92afa4-faab-48ba-a483-2c224fc4ff25.png)  
-[image.jpg](https://imaginaryctf.org/r/EA9D-image.jpg)
 
 > We need to find the latitude and longitude of the location where the following picture was taken:
 
@@ -136,7 +133,6 @@ Round off to 3 decimal places and include the flag format.
 ## stackoverflow
 
 ![image](https://user-images.githubusercontent.com/68913871/127276966-9ea4fc38-158e-4f22-ad2a-da8e7a45f235.png)  
-[stackoverflow](https://imaginaryctf.org/r/E795-stackoverflow)
 
 > Disassemble the ELF file using Ghidra to get the following code:
 

@@ -7,7 +7,7 @@
 
 &nbsp; **Team Name:** *Rookie441*  
 &nbsp; **Team Member(s):**  
-&nbsp; 1. *Lee Wen Bin Andre*  
+&nbsp; 1. *Andre Lee*  
 
 <br/><br>
 
@@ -22,7 +22,6 @@
 ## CEO
 
 ![image](https://user-images.githubusercontent.com/68913871/128170258-9153614d-55a6-42f4-a4c0-3f17f03517ec.png)  
-[mega.cap](https://uiuc.tf/files/d123b87f0f5bc197f73d66134874f1a4/megacorp-01.cap?token=eyJ1c2VyX2lkIjo3MTYsInRlYW1faWQiOjI5OSwiZmlsZV9pZCI6MzF9.YQT1yg.vkvSY4puKm-5rf4KBopAgD5GgZs)
 
 > We can read the packets of a .cap file using aircrack-ng which is shown in this [writeup](https://github.com/0awawa0/CTF-Writeups/tree/master/ENCRYPT%20CTF%202019/Forensics/WrEP)
 
@@ -69,7 +68,7 @@ https://www.youtube.com/watch?v=zNXl9fqGX40
 `uiuctf{@b0uT_m3_suppOrT5_maRkD0wN}`
 
 ## Chaplin PR Nightmare 1 to 7
-
+### Chaplin PR Nightmare 1
 ![image](https://user-images.githubusercontent.com/68913871/128172415-f86a53d0-1b1f-43b2-82cd-d604de83a30e.png)
 
 > Find Charlie Chaplin's [twitter](https://twitter.com/ChaplinCoding) account and look for his posts.
@@ -82,6 +81,7 @@ https://www.youtube.com/watch?v=zNXl9fqGX40
 
 `uiuctf{pe@k_c0medy!}`
 
+### Chaplin PR Nightmare 2
 ![image](https://user-images.githubusercontent.com/68913871/128172462-fc1d267e-eb4d-4eb5-80e8-cfa255786942.png)
 
 
@@ -93,6 +93,7 @@ https://www.youtube.com/watch?v=zNXl9fqGX40
 
 `uiuctf{ch@plin_oN_th3_tV!!}`
 
+### Chaplin PR Nightmare 3
 ![image](https://user-images.githubusercontent.com/68913871/128172536-ddc24acf-036f-4836-bb64-b8fb39a02bf3.png)
 
 > In the About section of Charlie's [Youtube account](https://www.youtube.com/channel/UCxPyHVMa8TyKrOj05x86osA/about), we can see a link to his [website](https://www.charliechaplin.dev/)
@@ -105,6 +106,7 @@ https://www.youtube.com/watch?v=zNXl9fqGX40
 
 `uiuctf{ch@pl1n_i5_eL337}`
 
+### Chaplin PR Nightmare 4
 ![image](https://user-images.githubusercontent.com/68913871/128172592-362816f0-62a4-495d-8944-c71a0c66eac4.png)
 
 > Complete the [form](https://www.charliechaplin.dev/contact) on the website to obtain the flag.
@@ -113,6 +115,7 @@ https://www.youtube.com/watch?v=zNXl9fqGX40
 
 `uiuctf{w3_d0_nOt_v@lu3_yoUR_1nPuT}`
 
+### Chaplin PR Nightmare 5
 ![image](https://user-images.githubusercontent.com/68913871/128172616-ea3a7e5c-2ebe-4baa-985c-6451e824e08b.png)
 
 > Under the [About Us](https://www.charliechaplin.dev/about-us) section, there is an image of Charlie Chaplin with Cane which when clicked, directs us to [this link](https://imgur.com/a/iZI1ov4).
@@ -129,6 +132,7 @@ https://www.youtube.com/watch?v=zNXl9fqGX40
 
 `uiuctf{tH3_pR_p0Lic3_h@vE_cAugHt_Up?!}`
 
+### Chaplin PR Nightmare 6
 ![image](https://user-images.githubusercontent.com/68913871/128172692-d02ab359-20d1-4912-b8d7-fc7fedf8383d.png)
 
 > In Charlie's [website](https://www.charliechaplin.dev/contact), there is a short text at the bottom which reads:
@@ -154,6 +158,7 @@ The flag can be seen from the About section.
 
 `uiuctf{pr0f3s5iOn@l_bUs1n3sS_envIroNm3n7}`
 
+### Chaplin PR Nightmare 7
 ![image](https://user-images.githubusercontent.com/68913871/128172779-95c019fe-09b1-4a6e-9bdc-2aaf03498ffa.png)
 
 > Locate Charlie C's [Github account](https://github.com/charliechaplindev).
@@ -175,11 +180,5 @@ The flag can be seen from the About section.
 ![image](https://user-images.githubusercontent.com/68913871/128172836-d8690f4c-b0fe-42f8-ba3b-44c92b9f6a35.png)
 
 `uiuctf{th3_TrUe_pR_N1gHtm@r3}`
-
-
-
-
-
-
 
 ## [Go to Top](#uiuctf2021)

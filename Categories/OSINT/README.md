@@ -1,4 +1,15 @@
 ## OSINT
 - Beginner
+  - [[UIUCTF2021] Youtube Text Crawl](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#doot-doot)
+  - [[UIUCTF2021] Discord 'About Me' Spoiler Tag](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#osint-the-creator)
+  - [[UIUCTF2021] Chaplin PR Nightmare 1 to 7](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#chaplin-pr-nightmare-1-to-7)
+    - [Twitter](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#chaplin-pr-nightmare-1)
+    - [Youtube Video](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#chaplin-pr-nightmare-2)
+    - [Website Exploration](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#chaplin-pr-nightmare-3)
+    - [Website Form Submission](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#chaplin-pr-nightmare-4)
+    - [Imgur Comments](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#chaplin-pr-nightmare-5)
+    - [LinkedIn Groups and Events](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#chaplin-pr-nightmare-6)
+    - [GitHub Issues](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#chaplin-pr-nightmare-7)
+- Easy
   - [[HackyHolidaysSpaceRace] Password Recovery with Security Question](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#members-only)
   - [[ImaginaryCTF2021] GeoGuessr: Tahoe Hemp](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/ImaginaryCTF2021_Writeup.md#vacation)
