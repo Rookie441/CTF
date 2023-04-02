@@ -6,6 +6,8 @@
   - [[HSCTF8] Hill Cipher](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/HSCTF8_Writeup.md#queen-of-the-hill)
   - [[HSCTF8] Modulus Operations on Alphabets](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/HSCTF8_Writeup.md#aptenodytes-forsteri)
   - [[HSCTF8] Simplified RSA Encryption (Bruteforce Solve)](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/HSCTF8_Writeup.md#opisthocomus-hoazin)
+  - [[CDDC21] XOR Cipher](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC21_Writeup.md#never)
+  - [[CDDC21] Translation Cipher](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC21_Writeup.md#transatlantic)
 - Easy
   - [[BCACTF2.0] Normal RSA](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#easy-rsa)
   - [[BCACTF2.0] RSA with small n](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#slightly-harder-rsa)

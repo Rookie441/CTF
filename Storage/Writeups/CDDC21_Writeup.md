@@ -96,7 +96,7 @@ Eventually, the organizers apologized and explained their position.
 I wish to join next year CDDC22 and hope that the same thing will not happen again.
 
 # Challenges
-
+## AccessKey
 ![image](https://user-images.githubusercontent.com/68913871/123537359-90702400-d761-11eb-85f3-518714d912ab.png)
 
 > This web challenge bring us to a website, and this is seen after inspecting sources.
@@ -113,6 +113,7 @@ I wish to join next year CDDC22 and hope that the same thing will not happen aga
 
 `CDDC21{_ De0bfu$cated-F!aG_}`
 
+## Opening the Gate
 ![image](https://user-images.githubusercontent.com/68913871/123537514-6703c800-d762-11eb-9021-35c04fa1e85c.png)
 
 > This is a Linux based challenge which requires us to login to a target using ssh private key. I initially thought that I had to crack the passphrase using John the Ripper but later realised that the passphrase was provided.
@@ -181,6 +182,7 @@ Notice
 
 `CDDC21{S$H_keYs_are_Be!ter_than_PaSSw0rds}`
 
+## Scrambled Eggs
 ![image](https://user-images.githubusercontent.com/68913871/123537758-a0890300-d763-11eb-8215-89785727b1ae.png)
 
 > This next challenge is a continuation of the Linux challenge: Opening the Gate. Now, we are expected to switch to user `bot2` using the flag as the password. After switching user with `su` command, we can see a data file in the home folder with read permissions. However, running a `cat` command gave us some gibberish.
@@ -196,6 +198,7 @@ There were numerous flags which aren't the correct flag format as they lack the 
 
 `CDDC21{Th1s_!s_IT}`
 
+## Alarm
 ![image](https://user-images.githubusercontent.com/68913871/123537962-e4c8d300-d764-11eb-8ebe-e3e4b48dcdd4.png)
 
 > This is a reverse engineering challenge which requires us to key in a correct password to turn off the alarm so as to obtain the flag.
@@ -351,6 +354,7 @@ LAB_00401098:
 
 `CDDC21{k5JkMxP66d}`
 
+## Never
 ![image](https://user-images.githubusercontent.com/68913871/123538700-b77e2400-d768-11eb-821e-1f1c4735dcfe.png)
 
 > In this cryptography challenge, we are provided with 2 files: `data` and `gdc_secret`. gdc_secret had an ELF header whereas the data file appears to be more interesting:
@@ -366,6 +370,7 @@ Knowing all these information, we can then proceed to run an [XOR decoder](https
 
 `CDDC21{It_@ll_$tarted_Th3n}`
 
+## Transatlantic
 ![image](https://user-images.githubusercontent.com/68913871/123538950-c87b6500-d769-11eb-822f-5a1191bad6cb.png)
 
 > This is another cryptography challenge and we are given this text file and expected to decipher the message.
