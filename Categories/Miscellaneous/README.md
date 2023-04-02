@@ -1,3 +1,4 @@
 ## Miscellaneous
-- Beginner
+- Easy
   - [[ImaginaryCTF2021] Detecting Mispelled Words with Python autocorrect](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/ImaginaryCTF2021_Writeup.md#spelling-test)
+  - [[DownUnderCTF2021] Remote Connection Quiz Solver with Pwntools Scripting](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/DownUnderCTF2021_Writeup.md#general-skills-quiz)

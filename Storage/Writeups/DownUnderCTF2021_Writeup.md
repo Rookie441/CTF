@@ -7,7 +7,7 @@
 
 &nbsp; **Team Name:** *Rookie441*  
 &nbsp; **Team Member(s):**  
-&nbsp; 1. *Lee Wen Bin Andre*  
+&nbsp; 1. *Andre Lee*  
 <br/><br>
 
 **Final Position:** *[367/2133](https://user-images.githubusercontent.com/68913871/135020243-7facf0b7-c32d-4d4f-8dbb-0ce6e5785cfa.jpg)*  
@@ -248,8 +248,6 @@ Bloody Ripper! Here is the grand prize!
 ## Substitution Cipher I
 
 ![image](https://user-images.githubusercontent.com/68913871/134805137-ad9c4da2-d324-4146-b572-a6602a9e5337.png)  
-[substitution-cipher-i.sage](https://play.duc.tf/files/30fd220967d9db549f8ad07090043398/substitution-cipher-i.sage?token=eyJ1c2VyX2lkIjo3NjAsInRlYW1faWQiOjQ0MSwiZmlsZV9pZCI6NTZ9.YVBUMg.tOF0e9NDlNbrkP96cyeTkivZK24)  
-[output.txt](https://play.duc.tf/files/8cda362b3e7ff0a1e5dc806bb5e30f0f/output.txt?token=eyJ1c2VyX2lkIjo3NjAsInRlYW1faWQiOjQ0MSwiZmlsZV9pZCI6NTd9.YVBUMg.hfeY94njAG2mhpEawo78BkK3BIc)
 
 > This is the contents of the .sage file which shows the encryption algorithm.
 
