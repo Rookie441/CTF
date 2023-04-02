@@ -199,6 +199,7 @@ else if (score == 0x73434241) {
 `bcactf{bca_is_taking_APs_in_june_aaaaaaaa_wish_past_me_luck}`
 
 ## Crypto
+## Easy RSA
 
 ![image](https://user-images.githubusercontent.com/68913871/123505353-20926880-d691-11eb-9767-2f8cedaf06a0.png)  
 
@@ -219,6 +220,7 @@ print(long_to_bytes(265254075355898792813555962177516571842093445012497158928766
 
 `bcactf{RSA_IS_EASY_AFTER_ALL}`
 
+## Slightly Harder RSA
 ![image](https://user-images.githubusercontent.com/68913871/123505650-df9b5380-d692-11eb-8961-19951df4f601.png)  
 
 > This challenge is a sequel to Easy RSA. The only difference is that now we are not given the values of p and q. However, it can be noted that since n is a small value, we can [brute force its factorization](https://asecuritysite.com/encryption/crackrsa).
@@ -290,6 +292,7 @@ print(long_to_bytes(143794522380749587603817933677936428593350769010557).decode(
 
 `bcactf{rsa_factoring}`
 
+## Little e
 ![image](https://user-images.githubusercontent.com/68913871/123506047-bed3fd80-d694-11eb-864a-6c43b3b25183.png)  
 
 > This challenge is also related to RSA encryption. This time, the value of n given is too large for us to brute-force factorization. However, it can be noted that the value of e is very small, which poses a vulnerability.
@@ -307,6 +310,7 @@ print(long_to_bytes(103614873185897965941079701414017772696218042598470738734402
 
 `bcactf{R54_N0T_50_S3CUR3_33}`
 
+## Cryptogram Puzzle
 ![image](https://user-images.githubusercontent.com/68913871/123506302-0eff8f80-d696-11eb-8e5e-382f9a0d3af9.png)  
 
 > Open the file with notepad. We can see that this is a standard Cryptogram puzzle. We will be editing with notepad++ and replacing the unknown characters to readable alphabets.
@@ -337,6 +341,7 @@ print(long_to_bytes(103614873185897965941079701414017772696218042598470738734402
 
 `bcactf{sorry_we_ran_out_of_runes_sjrhwbg}`
 
+## Sailing Thru Decryption
 ![image](https://user-images.githubusercontent.com/68913871/123506646-eaa4b280-d697-11eb-8c19-ed448767f018.png)  
 
 > The country flags at the bottom of the picture is an encryption signal used by the Navy. It can be [decoded](http://skysailtraining.co.uk/international_flag_signals_and_morse_code.htm) to give us `thekeyisfhskdn`.
@@ -356,6 +361,7 @@ red-yellow-red flag -> 1
 
 `bcactf{1s_h1s_n4me_g3r4rd?}`
 
+## Cipher Mishap
 ![image](https://user-images.githubusercontent.com/68913871/123506941-66ebc580-d699-11eb-8645-1f66b7111cca.png)  
 
 > Numbers seem to be in octal format.
@@ -368,7 +374,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 `bcactf{Should_iT_Have_BeeN_Vigenere_Instead}`
 
 ## Forensics
-
+## Infinite Zip
 ![image](https://user-images.githubusercontent.com/68913871/123507361-7ff57600-d69b-11eb-92bc-a191c87ed85b.png)  
 
 > This challenge is about unzipping a file. As the name of the challenge suggests, there are many zip files inside the given zip file. My solution was the following:  
@@ -388,6 +394,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{z1p_1n51d3_4_z1p_4_3v3r}`
 
+## Secure Zip
 ![image](https://user-images.githubusercontent.com/68913871/123507717-8edd2800-d69d-11eb-9bda-8c3924808837.png)  
 
 > This challenge provides us with a zip file containing a flag.txt and homework.txt. However, they are both protected with a password.
@@ -400,6 +407,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{cr4ck1ng_z1p_p455w0rd5_15_fun_a12ca37bdacef7}`
 
+## Zstegosaurus
 ![image](https://user-images.githubusercontent.com/68913871/123507848-67d32600-d69e-11eb-83f7-5b7cd99695bf.png)  
 
 > This is a steganography challenge where the flag is hidden in the image. The name of the challenge suggests using the zsteg package. But there is this handy [steganography tool](https://aperisolve.fr/) that does a complete analysis using many packages such as strings, binwalk, exiftool and more. Uploading the image gave us the flag.
@@ -408,6 +416,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{h15_n@m3_i5nt_g3rard}`
 
+## Gerald New Job
 ![image](https://user-images.githubusercontent.com/68913871/123507924-f47de400-d69e-11eb-87a2-eac64c4a3c42.png)  
 
 > Opening the pdf file gave us a fake flag.
@@ -428,6 +437,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{g3ra1d_15_a_ma5ter_p01yg1ot_0769348}`
 
+## More Than Meets The Eye
 ![image](https://user-images.githubusercontent.com/68913871/123508132-1a57b880-d6a0-11eb-8c62-96e5b9e8cb77.png)  
 
 > The text document looks empty, but it actually contain hidden messages called [Zero-Width Spaces](https://en.wikipedia.org/wiki/Zero-width_space) (zwsp), as the name of the file suggests.
@@ -447,6 +457,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{z3r0_w1dth_jungl3_j82axH4}`
 
+## Java Winter Wonderland
 ![image](https://user-images.githubusercontent.com/68913871/123508253-d9ac6f00-d6a0-11eb-9055-1281aeb23b46.png)  
 
 > I first pasted the code into an [online Java compiler](https://www.tutorialspoint.com/compile_java_online.php), which provided me with the following binary output:
@@ -475,7 +486,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 `bcactf{its_whitespace_not_java_smh}`
 
 ## Reverse
-
+## Digitally Encrypted 1
 ![image](https://user-images.githubusercontent.com/68913871/123508667-50e30280-d6a3-11eb-948d-6091b393bb3c.png)  
 
 > The idea is to use the [Digital](https://github.com/hneemann/Digital/releases/latest/download/Digital.zip) program available on GitHub.
@@ -505,6 +516,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{that_was_pretty_simple1239152735}`
 
+## The Opening Gambit
 ![image](https://user-images.githubusercontent.com/68913871/123508816-3eb59400-d6a4-11eb-97ef-192d3f038bd2.png)  
 
 > Open the file in notepad. We can observe that it has an ELF header. Upon further scrolling, we can see the contents of the code where the flag is embedded.
@@ -513,6 +525,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{w0ol_m4k3s_str1ng_ziv4mk3ca91b}`
 
+## A Fun Game
 ![image](https://user-images.githubusercontent.com/68913871/123508908-dfa44f00-d6a4-11eb-847f-83d2bb1d3693.png)  
 
 > Extract the exe file using 7Zip and then open the .text file in notepad.
@@ -527,7 +540,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 `bcactf{h0p3fu1ly_y0U_d1dNt_actUa1ly_tYpe_1000_1ett3rs}`
 
 ## Web
-
+## Countdown Timer
 ![image](https://user-images.githubusercontent.com/68913871/123509013-ab7d5e00-d6a5-11eb-85bd-71d6cd7450e9.png)
 
 > This challenge provides us with a countdown timer which claims to give us the flag after 100 days. Clearly, we are not going to wait that long. So, let's go ahead and inspect element.
@@ -540,6 +553,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{1_tH1nK_tH3_CtF_w0u1D_b3_0v3r_bY_1O0_dAy5}`
 
+## Home Automation
 ![image](https://user-images.githubusercontent.com/68913871/123509041-de275680-d6a5-11eb-872c-48dd14c951c2.png)
 
 > In this challenge, we need to turn off the lights. However, we are currently "vampire", and only "admin" has the permission to do so. This suggests changing cookie, so firstly, inspect element and navigate to the cookie page to see our current cookie name and value.
@@ -552,6 +566,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{c00k13s_s3rved_fr3sh_fr0m_th3_smart_0ven_cD7EE09kQ}`
 
+## Wasm Protected Site 1
 ![image](https://user-images.githubusercontent.com/68913871/123509082-13cc3f80-d6a6-11eb-9269-e628594d07a9.png)
 
 > We start by inspecting element and navigating to the main.js. Here, we can see a wasm library of some sort that contains the code to check for password validity.
@@ -564,6 +579,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{w4sm-m4g1c-xRz5}`
 
+## Agent Gerald
 ![image](https://user-images.githubusercontent.com/68913871/123509102-35c5c200-d6a6-11eb-9a83-96cd141e3d71.png)
 
 > In this challenge, we are refused entry because we are not Agent Gerald. Webpages know what kind of browser we’re using through “User agent”. Typing `navigator.userAgent` on the console shows the current user, which is selected automatically.
@@ -586,6 +602,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{y0u_h@ck3d_5tegos@urus_1nt3lligence}`
 
+## Movie Login 1
 ![image](https://user-images.githubusercontent.com/68913871/123509190-95bc6880-d6a6-11eb-855f-09737dbe269c.png)
 
 >Inputs not sanitized suggests login bypass through [SQL injection](https://portswigger.net/support/using-sql-injection-to-bypass-authentication). Enter some appropriate syntax to modify the SQL query into the "Username" input. Input `' or 1=1-- ` into the username field causes the site to perform the query:  
@@ -596,6 +613,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{s0_y0u_f04nd_th3_fl13r?}`
 
+## Movie Login 2
 ![image](https://user-images.githubusercontent.com/68913871/123509265-fe0b4a00-d6a6-11eb-833b-3cb0f3e7b384.png)  
 
 > This challenge is a sequel to Movie-Login-1. However, this time, we are also provided with a denylist.json file. From the file, we know that the following characters are rejected in the input field and will yield an error message:  
@@ -608,6 +626,7 @@ Convert it to ascii readable characters using [CyberChef “From Octal”](https
 
 `bcactf{h0w_d1d_y0u_g3t_h3r3_th1s_t1m3?!?}`
 
+## Movie Login 3
 ![image](https://user-images.githubusercontent.com/68913871/123509319-5b070000-d6a7-11eb-9b37-006d1136f1e7.png)  
 
 > This challenge is a sequel to Movie-Login-2. This time, our denylist.json file has more characters:  
