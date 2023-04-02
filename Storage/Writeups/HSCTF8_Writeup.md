@@ -7,7 +7,7 @@
 
 &nbsp; **Team Name:** *Rookie441*  
 &nbsp; **Team Member(s):**  
-&nbsp; 1. *Lee Wen Bin Andre*  
+&nbsp; 1. *Andre Lee*  
 
 <br/><br>  
 
