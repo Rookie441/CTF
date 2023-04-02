@@ -8,6 +8,12 @@
   - [[HSCTF8] Simplified RSA Encryption (Bruteforce Solve)](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/HSCTF8_Writeup.md#opisthocomus-hoazin)
   - [[CDDC21] XOR Cipher](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC21_Writeup.md#never)
   - [[CDDC21] Translation Cipher](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC21_Writeup.md#transatlantic)
+  - [[HackyHolidaysSpaceRace] Space Snacks](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#space-snacks)
+    - [ROT 13 Encryption](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#rotten-to-the-core)
+    - [Caeser Cipher](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#the-roman-space-empire)
+    - [Base64 Encryption](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#the-space-station-that-rocked)
+    - [Morse Code](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#what-the-beep-is-that)
+    - [Binary Encoding](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#stars-in-space)
 - Easy
   - [[BCACTF2.0] Normal RSA](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#easy-rsa)
   - [[BCACTF2.0] RSA with small n](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#slightly-harder-rsa)

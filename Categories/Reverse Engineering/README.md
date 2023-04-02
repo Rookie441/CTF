@@ -4,3 +4,4 @@
   - [[BCACTF2.0] Basic Text Editor Analysis](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#a-fun-game)
 - Easy
   - [[CDDC21] Password Decompilation using Hexadecimal Addition](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC21_Writeup.md#alarm)
+  - [[HackyHolidaysSpaceRace] Decompiling Jar Files](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#bowshock)

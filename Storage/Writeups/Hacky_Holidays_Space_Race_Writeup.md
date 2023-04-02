@@ -11,7 +11,7 @@
 
 **Team Name:** *Rookie441*  
 **Team Member(s):**
-1. *Lee Wen Bin Andre*
+1. *Andre Lee*
 
 **Final Position:** *210/1042*
 
@@ -28,10 +28,6 @@
 | [Stolen Research](#stolen-research) | Forensics |
 | [Power Snacks](#power-snacks) | Powershell |
 | [Quantum Shuttle](#quantum-shuttle) | Quantum |
-
-**About:** I was intrigued when I noticed that this CTF spanned a duration of 1 month as most CTFs usually lasts for about 2-3 days. I decided to give it a shot and was surprised by the repertoire of categories available such as cloud, powershell and quantum, which were very interesting to solve. Definitely a novel experience and suited for a beginner.
-
-**Disclaimer:** This is not a professional writeup. Its core purpose is to serve as memory and/or personal education.  
 
 # Challenges
 ## TEASER su admin
@@ -76,6 +72,7 @@ After further exploration, I realized that overlay #2 is the layer we are lookin
 
 ![image](https://user-images.githubusercontent.com/68913871/126036375-05397999-0da7-47d0-9d39-64c6b4d55057.png)
 
+### Obtaining External Access Keys
 ![image](https://user-images.githubusercontent.com/68913871/126036379-22d76999-1b99-45e5-90ca-46c40fd88b52.png)
 
 > Navigate to the [external storage](https://external-spaceship-storage-b38e8c6.s3-eu-west-1.amazonaws.com/). We see the following XML file:
@@ -102,6 +99,7 @@ After further exploration, I realized that overlay #2 is the layer we are lookin
 
 `CTF{6c2c45330a85b126f551}`
 
+### Checking your Internal Storage
 ![image](https://user-images.githubusercontent.com/68913871/126036541-62fd60a9-b8a1-472a-ab3e-834ea80b8e90.png)
 
 > I found a useful link to list buckets, folders or objects using the [s3 ls command](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html)  
@@ -138,8 +136,6 @@ This can be done using [list-buckets](https://docs.aws.amazon.com/cli/latest/ref
 ![image](https://user-images.githubusercontent.com/68913871/126037535-bebfde4a-4ec6-4405-93f5-1b60eb4195cc.png)
 
 ![image](https://user-images.githubusercontent.com/68913871/126037537-4747ad67-73a3-4273-9afc-3f484cdb0b5c.png)
-
-[BowShock.jar](https://portal.hackazon.org/files/bfb155f97c39ecb22540844bd3321cfd91da8ef2/BowShock.jar)
 
 ![image](https://user-images.githubusercontent.com/68913871/126037584-38c1cf8b-16f2-4f15-a26f-f1399ace5fc0.png)
 
@@ -213,6 +209,7 @@ Upon further analysis, we can also see that the bowShock() function is executed 
 
 ![image](https://user-images.githubusercontent.com/68913871/126038028-13187b1e-8b96-4360-a930-7de0e54e5835.png)
 
+### Spaceship External Information Endpoint
 ![image](https://user-images.githubusercontent.com/68913871/126038031-8cd8badc-3aca-4b79-85ee-ee6de9e080bc.png)
 
 > Navigate to the [spaceship](http://planet-bucket-43b2a07.s3-website-eu-west-1.amazonaws.com/). Other than a picture of a rocket in space, there isn't anything interesting to see. Hence, I inspected element and after some exploring, I found something interesting in Network > Initiator.
@@ -261,6 +258,7 @@ https://rocket-bucket-723aa76.s3.amazonaws.com/flag.txt
 
 `CTF{0841862f273fd2ca20ea3b94a645781071ab19d7}`
 
+### Obtaining the Spaceship Access Keys
 ![image](https://user-images.githubusercontent.com/68913871/126038441-0e34c357-2eba-40ef-871a-90261ad3fb67.png)
 
 > Another interesting key in the above XML file is external-information-panel.txt.  
@@ -487,6 +485,7 @@ The periscope data is optimal. Have a flag for your effort: CTF{9177a9c8bb1cd5c8
 
 `CTF{9177a9c8bb1cd5c85934}`
 
+### A Cleaning Bucket
 ![image](https://user-images.githubusercontent.com/68913871/126038659-c598f66a-ce27-4a9d-954d-9c35df784660.png)
 
 > From the above response, we can get the following AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID:
@@ -520,6 +519,7 @@ The periscope data is optimal. Have a flag for your effort: CTF{9177a9c8bb1cd5c8
 
 ![image](https://user-images.githubusercontent.com/68913871/126038883-034b1c0d-e8b4-4d64-8e49-9db191bb2217.png)
 
+### How Many States
 ![image](https://user-images.githubusercontent.com/68913871/126038890-8b847a39-9f04-4ff1-8673-5cb03191f7ef.png)
 
 ![image](https://user-images.githubusercontent.com/68913871/126038891-2d90c6ef-6446-4581-893d-7fa0dc2516b8.png)
@@ -530,6 +530,7 @@ The periscope data is optimal. Have a flag for your effort: CTF{9177a9c8bb1cd5c8
 
 `8`
 
+### Make A Circuit
 ![image](https://user-images.githubusercontent.com/68913871/126039568-af4306e7-3104-4ac1-b485-bd2142c1666a.png)
 
 > We are required to use matrix multiplication to get a combination of H and X operations that can change the state from init`(1,0)` to target`(-1,0)`.
@@ -575,6 +576,7 @@ def applyHX(combi):
 
 `CTF{quantum_circuit_master}`
 
+### Short Circuit
 ![image](https://user-images.githubusercontent.com/68913871/126039896-b396e6e6-9f35-41f1-a710-0d0f214d1d96.png)
 
 > Now, we are allowed to use an additional operation `Z`. Thus, we edit our above code to the following:
@@ -633,6 +635,7 @@ In fact, we just need to flip it, so we append an `X` to get `XZX` as the soluti
 
 ![image](https://user-images.githubusercontent.com/68913871/126040143-cb846c3e-82ca-477c-a044-fa2d3720b5a8.png)
 
+### Invite Only
 ![image](https://user-images.githubusercontent.com/68913871/126040148-e092a0a4-1c5f-41cb-b15e-6e8bcdf8f384.png)
 
 > Navigating to the [link](https://fdac14c304cd49c16b0c74573779cedb.challenge.hackazon.org/) provided, we see the following:
@@ -684,6 +687,7 @@ In fact, we just need to flip it, so we append an `X` to get `XZX` as the soluti
 
 `UFO-VUZP-234`
 
+### Members Only
 ![image](https://user-images.githubusercontent.com/68913871/126041023-3578d9b2-cba0-40de-8f10-f919e389d18e.png)
 
 > The Members tab requires a login using a username and password, both of which we do not have. However, an interesting to note is that there is `I've forgotten my password` function which prompts for a username. Thus, we need to first get a username.
@@ -726,6 +730,7 @@ In fact, we just need to flip it, so we append an `X` to get `XZX` as the soluti
 
 ![image](https://user-images.githubusercontent.com/68913871/126041748-6639720e-d894-482a-9cea-a57cfa87b59f.png)
 
+### Rotten To The Core
 ![image](https://user-images.githubusercontent.com/68913871/126041750-a23921d7-56cf-43e9-a63e-5f44e56273d2.png)
 
 > Rotten and 13 circles gives a hint that it is a `ROT13` encryption, which is then decoded [here](https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)&input=VmcgbmNjcm5lZiBsYmggdW5xIGp1bmcgdmcgZ254cmYgZ2IgZmJ5aXIgZ3VyIHN2ZWZnIHB5aHIKSnJ5eSBRYmFyIGZjbnByIHBucXJnCnBnc3tMYmhfc2JoYXFfZ3VyX2ViZ30KTnBwcmZmIHBicXIgY25lZyAxOiBRTw)
@@ -739,6 +744,7 @@ Access code part 1: DB
 
 `ctf{You_found_the_rot}`
 
+### The Roman Space Empire
 ![image](https://user-images.githubusercontent.com/68913871/126041925-bd8f6d0b-413f-4749-b10b-f3c7f7d0d15a.png)
 
 > Roman gives the hint that it is `caeser cipher`, which is then decoded [here](https://www.dcode.fr/caesar-cipher) using brute-force guessing of the shift.
@@ -751,6 +757,7 @@ code part: GP
 
 `ctf{The_one_true_salad}`
 
+### The Space Station that Rocked
 ![image](https://user-images.githubusercontent.com/68913871/126041974-8eb69b6d-c76f-4419-8cc1-7994ebff67a5.png)
 
 > Base line of 64 speakers and the = sign suggest that it is `base64` encoded, which is then decoded [here](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=UlhabGJpQWdhVzRnYzNCaFkyVWdkMlVnYkdsclpTQjBhR1VnWW5WMGRHVnllU0JpYVhOamRYUWdZbUZ6WlM0Z1kzUm1lMGxmYkdsclpWOTBhR1ZmWW5WMGRHVnllVjlpYVhOamRXbDBYMkpoYzJWOUlDNGdRV05qWlhOeklIQmhjblFnTXpvZ1dFUT0)
@@ -761,6 +768,7 @@ Even  in space we like the buttery biscut base. ctf{I_like_the_buttery_biscuit_b
 
 `ctf{I_like_the_buttery_biscuit_base}`
 
+### What The Beep Is That
 ![image](https://user-images.githubusercontent.com/68913871/126042037-e5be706a-3da3-4acb-93b6-3b28cefd8fc7.png)
 
 ```
@@ -775,6 +783,7 @@ INSPECTOR MORSE WOULD BE PROUD OF YOUR EFFORTS. CTF:SPACEDASH2021 ACCESS CODE: J
 
 `CTF:SPACEDASH2021`
 
+### Stars In Space
 ![image](https://user-images.githubusercontent.com/68913871/126042182-2b1f3cfe-187c-4400-88cc-4211eb817ad5.png)
 
 ```
@@ -801,8 +810,7 @@ INSPECTOR MORSE WOULD BE PROUD OF YOUR EFFORTS. CTF:SPACEDASH2021 ACCESS CODE: J
 
 ![image](https://user-images.githubusercontent.com/68913871/126042333-9b56e863-40bf-4aa7-8fbb-9de1ff9f7d69.png)
 
-[unidentifi3d.gcode](https://portal.hackazon.org/files/b281f3dce14acc94b22f5ada593e3494bc5767c3/unidentifi3d.gcode)
-
+### Printer
 ![image](https://user-images.githubusercontent.com/68913871/126042347-a1877f6b-6fa9-459f-beeb-82f758fa1394.png)
 
 > Open the .gcode file using a text editor like notepad and we can find some interesting parameters at the bottom of the file, after the Gcode. The `SETTING_3 definition` is the closest resemblance to a printer's make and model.
@@ -823,6 +831,7 @@ INSPECTOR MORSE WOULD BE PROUD OF YOUR EFFORTS. CTF:SPACEDASH2021 ACCESS CODE: J
 
 `geeetech A10M`
 
+### Layer By Layer
 ![image](https://user-images.githubusercontent.com/68913871/126042477-723c4f7a-3ab2-4177-99e1-e306e893f74d.png)
 
 > We are required to analyze the gcode file using the correct software for visualization. [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura) is the choice for this challenge.
@@ -853,14 +862,13 @@ INSPECTOR MORSE WOULD BE PROUD OF YOUR EFFORTS. CTF:SPACEDASH2021 ACCESS CODE: J
 
 ![image](https://user-images.githubusercontent.com/68913871/126042762-cdbb1262-5f3b-4c03-b7fe-d19b2a474a3c.png)
 
-[memdump.vem.7z](https://portal.hackazon.org/files/6625a4cb113816668304191ec4217e05acd5738d/memdump.vmem.7z)  
-[stolen.pcapng](https://portal.hackazon.org/files/97660a376fd39341fab7e0d8ecc1efd5648be310/stolen.pcapng)
-
 ![image](https://user-images.githubusercontent.com/68913871/126042776-4b750966-8350-4fb1-a586-f58452493753.png)
 
 > Use 7zip to extract archive memdump.vmem and analyze the .vmem file using [this link](https://filext.com/file-extension/VMEM) to get the OS and kernel.
 
 ![image](https://user-images.githubusercontent.com/68913871/126042781-79431ddb-04ff-4959-aef9-aa6ca6a47fa7.png)
+
+> Alternatively, you can use [Volatility](https://manpages.ubuntu.com/manpages/bionic/man1/volatility.1.html) for memory dump analysis.
 
 `5.10.0-kali8-amd64`
 
@@ -874,6 +882,7 @@ INSPECTOR MORSE WOULD BE PROUD OF YOUR EFFORTS. CTF:SPACEDASH2021 ACCESS CODE: J
 
 ![image](https://user-images.githubusercontent.com/68913871/126042858-394aa71e-e781-4267-b520-a0e45f74c5dc.png)
 
+### 42
 ![image](https://user-images.githubusercontent.com/68913871/126042859-3eed5ecc-d24c-47b5-b5e0-9f0af1096e70.png)
 
 > This challenge requires knowledge of how to construct a [loop in powershell](https://www.business.com/articles/powershell-for-loop/), as well as the modulo operation %.
@@ -885,6 +894,7 @@ $x | Check
 
 `CTF{using_your_powers_for_powershell}`
 
+### Scrabble
 ![image](https://user-images.githubusercontent.com/68913871/126043267-35d5589d-7167-4824-8083-e505120d4bc2.png)
 
 > Get all words with `iydhlao`. This is a bad powershell command but it works    
@@ -1072,8 +1082,6 @@ print(sorted(finalList, key=len))
 
 ![image](https://user-images.githubusercontent.com/68913871/126043525-53a3d75f-2cbb-4c80-aed4-9f58db25cece.png)
 
-[background-info.pdf](https://portal.hackazon.org/files/fc46531e8d4f49b54afbb37815ad888ddaf91f3e/background-info.pdf)
-
 ![image](https://user-images.githubusercontent.com/68913871/126043551-9d85f9fa-524d-4f7b-8f03-852fafc77983.png)
 
 > Create a python script, defining the CNOT and NOTC functions, then run the given protocol to get the resulting bit-string.
@@ -1107,7 +1115,5 @@ print(CNOT(b[1],b[2])+NOTC(b[3],b[4])+CNOT(b[7],b[5])+NOTC(b[6],b[8])+CNOT(b[11]
 ```
 
 `001100101011`
-
-**Summary:** The challenges in this CTF were fun, though I only managed to solve the beginner and easy challenges.   
 
 ## [Go to Top](#hacky_holidays-space_race)

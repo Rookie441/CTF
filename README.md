@@ -14,4 +14,4 @@ A compilation of interesting challenges in my CTF journey:
   | [Cloud](https://github.com/Rookie441/CTF/blob/main/Categories/Cloud) | [Blockchain](https://github.com/Rookie441/CTF/blob/main/Categories/Blockchain) | [Machine Learning](https://github.com/Rookie441/CTF/blob/main/Categories/Machine%20Learning)
   | [Hardware](https://github.com/Rookie441/CTF/blob/main/Categories/Hardware) | [Mobile](https://github.com/Rookie441/CTF/blob/main/Categories/Mobile)
 
-Writeups for individual events can be found [here](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups)
+Some challenges do not have associated event writeups and are standalone. For challenges that do have writeups, they can be found within their respective events located [here](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups). 
