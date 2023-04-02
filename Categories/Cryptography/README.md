@@ -14,6 +14,9 @@
     - [Base64 Encryption](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#the-space-station-that-rocked)
     - [Morse Code](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#what-the-beep-is-that)
     - [Binary Encoding](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#stars-in-space)
+  - [[TMUCTF2021] Visual Cryptography](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TMUCTF2021_Writeup.md#warmup)
+  - [[TMUCTF2021] Visual Pattern Decoding and Common Ciphers](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TMUCTF2021_Writeup.md#puzzle)
+  - [[TMUCTF2021] Prison Tap Code](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TMUCTF2021_Writeup.md#prison)
 - Easy
   - [[BCACTF2.0] Normal RSA](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#easy-rsa)
   - [[BCACTF2.0] RSA with small n](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#slightly-harder-rsa)
