@@ -239,7 +239,7 @@ Bloody Ripper! Here is the grand prize!
 
 > Process takes about 1-2 minutes, which is way faster than writing a script. Watch the video [here](https://www.youtube.com/watch?v=MzBfIV-mJwU).
 
-> This method is inspired by a similar challenge I did during BCACTF2.0 - [Infinite Zip](https://github.com/Rookie441/CTF/blob/main/CTFs/BCACTF2.0_Writeup.md#forensics).
+> This method is inspired by a similar challenge I did during BCACTF2.0 - [Infinite Zip](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#infinite-zip).
 
 > My solution won the "Best Write Up with an Unintended Solution" prize money of AUD$50. [twitter link](https://twitter.com/DownUnderCTF/status/1452544420448858119).
 

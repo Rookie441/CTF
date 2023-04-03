@@ -14,3 +14,4 @@
   - [[HackyHolidaysSpaceRace] Password Recovery with Security Question](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#members-only)
   - [[ImaginaryCTF2021] GeoGuessr: Tahoe Hemp](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/ImaginaryCTF2021_Writeup.md#vacation)
   - [[DownUnderCTF2021] Domain Name Investigation with ICANN](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/DownUnderCTF2021_Writeup.md#who-goes-there)
+  - [[SEETF2022] GeoGuessr: ATC Fishing Village](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/SEETF2022_Writeup.md#everyone-needs-a-break)

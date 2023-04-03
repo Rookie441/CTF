@@ -22,3 +22,4 @@
   - [[BCACTF2.0] RSA with small n](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#slightly-harder-rsa)
   - [[BCACTF2.0] RSA with small e](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#little-e)
   - [[DownUnderCTF2021] Polynomial Encryption (Bruteforce Solve using SageMath)](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/DownUnderCTF2021_Writeup.md#substitution-cipher-i)
+  - [[SEETF2022] Decrypting ciphertext with RSA Public Key using RsaCtfTool](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/SEETF2022_Writeup.md#close-enough)

@@ -7,3 +7,5 @@
   - [[CDDC21] Password Reversing using Ghidra](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC21_Writeup.md#alarm)
   - [[HackyHolidaysSpaceRace] Decompiling Jar Files](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#bowshock)
   - [[TamilCTF2021] Python Decompilation using uncompyle6 (Bruteforce Solve)](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TamilCTF2021_Writeup.md#obscure)
+  - [[SEETF2022] Reversing a Flag Checking Program in C using Ghidra (Bruteforce Solve)](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/SEETF2022_Writeup.md#babyreeee)
+  - [[SEETF2022] Decompiling executable file in C# using jetbrains](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/SEETF2022_Writeup.md#bestsoftware)

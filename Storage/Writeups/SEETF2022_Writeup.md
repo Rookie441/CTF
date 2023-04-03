@@ -1,4 +1,4 @@
-# [SEETF2022](https://earth2.cyberleague.co/)
+# [SEETF2022](https://ctftime.org/event/1543)
 
 <img align="left" width="200" height="175" src="https://user-images.githubusercontent.com/68913871/172054851-29e8b490-a0cf-481c-a0c0-5a994cf09518.png">
 
@@ -10,8 +10,6 @@
 &nbsp; 1. *Rookie441*  
 &nbsp; 2. ~~*Tqhreal*~~  
 &nbsp; 3. ~~*TCK97*~~  
-
-
 
 | Challenge | Category |
 | --- | --- |
@@ -527,7 +525,7 @@ AgMBAAE=
 4881495507745813082308282986718149515999022572229780274224400469722585868147852608187509420010185039618775981404400401792885121498931245511345550975906095728230775307758109150488484338848321930294974674504775451613333664851564381516108124030753196722125755223318280818682830523620259537479611172718588812979116127220273108594966911232629219195957347063537672749158765130948724281974252007489981278474243333628204092770981850816536671234821284093955702677837464584916991535090769911997642606614464990834915992346639919961494157328623213393722370119570740146804362651976343633725091450303521253550650219753876236656017
 ```
 
-> You can read more about [how RSA works](https://ctf101.org/cryptography/what-is-rsa/) or read my [previous writeup](https://github.com/Rookie441/CTF/blob/main/CTFs/BCACTF2.0_Writeup.md#crypto) showing how to calculate each parameter. The emphasis of this writeup however, is to show that after you've learnt the theory, you can explore some tools that can make your life much easier. In this case, we use [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+> You can read more about [how RSA works](https://ctf101.org/cryptography/what-is-rsa/) or read my [previous writeup](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#crypto) showing how to calculate each parameter. The emphasis of this writeup however, is to show that after you've learnt the theory, you can explore some tools that can make your life much easier. In this case, we use [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 > Simply specify the `--publickey` file and `--uncipher` value and allow the script to do the rest.
 
