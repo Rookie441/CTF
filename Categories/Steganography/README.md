@@ -10,4 +10,4 @@
     - [Identifying 3D printer settings from Gcode files](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#printer)
     - [Visualizing 3D models using Ultimaker Cura](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#layer-by-layer)
   - [[CDDC22] Steganographic Comparator and QR code crafting](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#stegano)
-  - [[H@ctivityCon2021] Audio Steganography using Sonic Visualiser](https://github.com/Rookie441/CTF/blob/main/Categories/Steganography/Easy/tsunami/tsunami.md#tsunami)
+  - [Audio Steganography using Sonic Visualiser](https://github.com/Rookie441/CTF/blob/main/Categories/Steganography/Easy/tsunami/tsunami.md#tsunami)
