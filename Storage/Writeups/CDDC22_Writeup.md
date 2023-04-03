@@ -673,7 +673,7 @@ Pa$$WoRD1@; cat flag -->  Pa$$WoRD1@; ca
 
 ![image](https://user-images.githubusercontent.com/68913871/175266400-ef3fcd10-1016-482c-a75f-855826e55047.png)
 
-> This is a generic buffer overflow challenge where we need to control the RIP to execute a function. [Read here](https://github.com/Rookie441/CTF/blob/main/CTFs/BCACTF3.0_Writeup.md#jump-rope) for my previous writeup on such challenges.
+> This is a generic buffer overflow challenge where we need to control the RIP to execute a function. [Read here](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF3.0_Writeup.md#jump-rope) for my previous writeup on such challenges.
 
 > Because this challenge is very common in CTFs, I made an automated solver `ropstar.py` which I modified from [CryptoCat's Github](https://github.com/Crypto-Cat/CTF/blob/main/pwn/binary_exploitation_101/). We just need to change the parameters under `CHANGE THIS` and run the script to get our flag.
 

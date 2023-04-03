@@ -18,9 +18,14 @@
   - [[TMUCTF2021] Visual Pattern Decoding and Common Ciphers](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TMUCTF2021_Writeup.md#puzzle)
   - [[TMUCTF2021] Prison Tap Code](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TMUCTF2021_Writeup.md#prison)
   - [[BCACTF3.0] Encryption with Forsyth–Edwards Notation in Chess](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF3.0_Writeup.md#chessy)
+  - [[CDDC22] Invisible Binary Encoding with Morse Code](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#invisible-morse)
+  - [[CDDC22] Bruteforcing Vigenere Key](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#vigenere)
 - Easy
   - [[BCACTF2.0] Normal RSA](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#easy-rsa)
   - [[BCACTF2.0] RSA with small n](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#slightly-harder-rsa)
   - [[BCACTF2.0] RSA with small e](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#little-e)
   - [[DownUnderCTF2021] Polynomial Encryption (Bruteforce Solve using SageMath)](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/DownUnderCTF2021_Writeup.md#substitution-cipher-i)
   - [[SEETF2022] Decrypting ciphertext with RSA Public Key using RsaCtfTool](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/SEETF2022_Writeup.md#close-enough)
+  - [[CDDC22] Reversing Sha256 Hashes with CrackStation](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#hash-attack)
+- Medium
+  - [[CDDC22] Diffie Hellman Key Exchange with missing bytes](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#diffie-hellman)

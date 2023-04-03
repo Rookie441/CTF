@@ -9,3 +9,5 @@
   - [[TamilCTF2021] Python Decompilation using uncompyle6 (Bruteforce Solve)](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TamilCTF2021_Writeup.md#obscure)
   - [[SEETF2022] Reversing a Flag Checking Program in C using Ghidra (Bruteforce Solve)](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/SEETF2022_Writeup.md#babyreeee)
   - [[SEETF2022] Decompiling executable file in C# using jetbrains](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/SEETF2022_Writeup.md#bestsoftware)
+  - [[CDDC22] Credentials Reversing using Ghidra listing interface](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#arm)
+  - [[CDDC22] Flag Reversing using Ghidra listing interface and XOR Decryption](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#mips)
