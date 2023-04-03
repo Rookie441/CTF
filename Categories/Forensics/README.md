@@ -6,3 +6,4 @@
 - Easy
   - [[HackyHolidaysSpaceRace] Analyzing .vmem File for OS and Kernel Detection](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#stolen-research)
   - [[TamilCTF2021] File Cracking using fcrackzip and ccrypt](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TamilCTF2021_Writeup.md#chat-with-me)
+  - [[EZCTF2022] Recovering Image Files with Corrupted Headers using File Signatures and Hex Editing](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/EZCTF2022_Writeup.md#grandma)

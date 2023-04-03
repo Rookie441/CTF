@@ -1,5 +1,4 @@
-
-# [EZCTF2022](https://ez.ctf.cafe/)
+# [EZCTF2022](https://ctftime.org/event/1655)
 
 <img align="left" width="200" height="175" src="https://user-images.githubusercontent.com/68913871/173004513-c4453a87-5b7b-4160-b50d-cf2c1520beae.png">
 
@@ -8,7 +7,7 @@
 
 &nbsp; **Team Name:** *Rookie441*  
 &nbsp; **Team Member(s):**  
-&nbsp; 1. *Lee Wen Bin Andre*  
+&nbsp; 1. *Andre Lee*  
 
 <br/><br>
 
