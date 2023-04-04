@@ -27,5 +27,6 @@
   - [[DownUnderCTF2021] Polynomial Encryption (Bruteforce Solve using SageMath)](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/DownUnderCTF2021_Writeup.md#substitution-cipher-i)
   - [[SEETF2022] Decrypting ciphertext with RSA Public Key using RsaCtfTool](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/SEETF2022_Writeup.md#close-enough)
   - [[CDDC22] Reversing Sha256 Hashes with CrackStation](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#hash-attack)
+  - [Solving Multivariate Polynomial with SageMath](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Easy/equation/equation.md#equation)
 - Medium
   - [[CDDC22] Diffie Hellman Key Exchange with missing bytes](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#diffie-hellman)
