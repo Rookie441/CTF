@@ -12,3 +12,4 @@
   - [[CDDC22] PDF cracking with pdf2john](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#unknown-file2)
   - [[CDDC22] Analyzing .vhd File with autopsy](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#dump-jump)
   - [[CDDC22] Cracking Passwords in Shadow File using John the Ripper](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#crack-the-password)
+  - [Fixing PNG using CRC Checksum 🩸First Blooded 🩸](https://github.com/Rookie441/CTF/blob/main/Categories/Forensics/Easy/warmup-forensics/warmup-forensics.md#warmup-forensics)
