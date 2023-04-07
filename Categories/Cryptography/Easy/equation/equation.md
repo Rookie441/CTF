@@ -53,6 +53,6 @@ print(flag)
 
 ![image](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Easy/equation/SageMath.PNG)  
 
-> An alternative approach is to take the most significant exponent and ignore the rest of the terms with lower degree. The writeup can be found [here](https://github.com/jontay999/CTF-writeups/blob/master/GreyCTF%202022/Crypto/equation1.md), the code can be found at solver.py
+> An alternative approach is to take the most significant exponent and ignore the rest of the terms with lower degree. The writeup can be found [here](https://github.com/jontay999/CTF-writeups/blob/master/GreyCTF%202022/Crypto/equation1.md), the code can be found at [solver.py](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Easy/equation/solver.py)
 
 `grey{solving_equation_aint_that_hard_rite_gum0pX6XzA5PJuro}`
