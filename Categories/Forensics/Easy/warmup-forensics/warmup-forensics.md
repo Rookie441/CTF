@@ -65,7 +65,7 @@ width: 0780 height: 0438
 
 > Now, apply these new values to the broken.png file using a hexeditor, we get the following:
 
-![image](https://github.com/Rookie441/CTF/blob/main/Categories/Forensics/Easy/warmup-forensics/FixedHeader.png)  
+![image](https://github.com/Rookie441/CTF/blob/main/Categories/Forensics/Easy/warmup-forensics/FixedHeader.PNG)  
 
 > We are now able to open the png file to get the flag.
 
