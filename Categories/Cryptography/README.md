@@ -30,3 +30,4 @@
   - [Solving Multivariate Polynomial with SageMath](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Easy/equation/equation.md#equation)
 - Medium
   - [[CDDC22] Diffie Hellman Key Exchange with missing bytes](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#diffie-hellman)
+  - [Bruteforcing insecure random key in AES-CBC encryption](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/perfect-AES-imperfect-key/perfect-AES-imperfect-key.md#perfect-aes-imperfect-key)
