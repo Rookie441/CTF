@@ -32,3 +32,5 @@
   - [Solving Multivariate Polynomial with SageMath](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Easy/equation/equation.md#equation)
   - [Bruteforcing insecure random key in AES-CBC encryption](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/perfect-AES-imperfect-key/perfect-AES-imperfect-key.md#perfect-aes-imperfect-key)
   - [XOR Encryption on Fixed-Length Streams](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/insecure-otp/insecure-otp.md#insecure-otp)
+- Hard
+  - [Coppersmith method - Håstad's broadcast attack](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Hard/copper-rsa/copper-rsa.md#copper-rsa)

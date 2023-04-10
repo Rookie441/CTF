@@ -3,7 +3,7 @@
 [main.py](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/insecure-otp/main.py)  
 [encrypted.txt](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/insecure-otp/encrypted.txt)
 
-> The output of main.py is as follows:
+> The contents of main.py is as follows:
 
 ```python
 import os
@@ -39,7 +39,7 @@ Decryption ---> ciphertext ^ key = plaintext
 
 > And to extend the above, using properties of XOR, we can deduce that `ciphertext ^ plaintext = key`. This will be useful in solving this challenge because we can note that encryption is done on every 20 bytes of the message (ciphertext), and we have the first 20 bytes of plaintext in the msg variable. Thus, we can perform the XOR encryption to obtain the key, which we will then use to decrypt the remaining set of 20 bytes, which includes the FLAG.
 
-> The following is the exploit script, which can be found in [decrypt.py](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/insecure-otp/decrypt.py).
+> The following is the solver script, which can be found in [decrypt.py](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/insecure-otp/decrypt.py).
 
 ```python
 # Extract ciphertext from encrypted.txt

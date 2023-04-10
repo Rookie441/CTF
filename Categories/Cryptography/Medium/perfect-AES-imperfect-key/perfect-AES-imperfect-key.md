@@ -3,7 +3,7 @@
 [main.py](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/perfect-AES-imperfect-key/main.py)  
 [encrypted.txt](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/perfect-AES-imperfect-key/encrypted.txt)
 
-> The output of main.py is as follows:
+> The contents of main.py is as follows:
 
 ```python
 import os
@@ -30,7 +30,7 @@ key = sha512(os.urandom(20)[:3]).digest()[:16]
 
 > For the purpose of this challenge, we will just use the python libraries to help us in decryption. You can read more about AES-CBC encryption [here](https://www.educative.io/answers/what-is-cbc).
 
-> The following is the exploit script, which can be found in [decrypt.py](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/perfect-AES-imperfect-key/decrypt.py).
+> The following is the solver script, which can be found in [decrypt.py](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/perfect-AES-imperfect-key/decrypt.py).
 
 ```python
 import os
