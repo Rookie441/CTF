@@ -143,6 +143,6 @@ s.add(param_1[14]  == ord('e'))
 NudpPSuI7bpmNcez
 ```
 
-> You can view the 8-minute long full exploit video [here](https://youtu.be/r4AumzdBK9g). The script used can be found in [solver.py](https://github.com/Rookie441/CTF/blob/main/Categories/Reverse%20Engineering/Medium/speed-rev-humans/solver.py)
+> I made a short "speedrun video" which can be found [here](https://youtu.be/r4AumzdBK9g). The script used can be found in [solver.py](https://github.com/Rookie441/CTF/blob/main/Categories/Reverse%20Engineering/Medium/speed-rev-humans/solver.py)
 
 `flag{Human_or_r0b0t_1dk}`
