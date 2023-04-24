@@ -13,3 +13,4 @@
   - [[CDDC22] Flag Reversing using Ghidra listing interface and XOR Decryption](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#mips)
 - Medium
   - [Using Z3 Solver for Symbolic Constraint-Based Decoding Attack](https://github.com/Rookie441/CTF/blob/main/Categories/Reverse%20Engineering/Medium/speed-rev-humans/speed-rev-humans.md#speed-rev-humans)
+  - [Reversing a Rabbit Hole game executable in C# using jetbrains](https://github.com/Rookie441/CTF/blob/main/Categories/Reverse%20Engineering/Medium/rabbit-hole/rabbit-hole.md#rabbit-hole)
