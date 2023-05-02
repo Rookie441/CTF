@@ -1,8 +1,14 @@
 ## Steganography
-- Beginner
+<details>
+<summary>Beginner</summary>
+
   - [[BCACTF2.0] Zsteg](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#zstegosaurus)
   - [[BCACTF2.0] Binwalk](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#gerald-new-job)
-- Easy
+</details>
+
+<details>
+<summary>Easy</summary>
+
   - [[BCACTF2.0] Zero-Width Spaces](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#more-than-meets-the-eye)
   - [[BCACTF2.0] Stegsnow](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#java-winter-wonderland)
   - [[HSCTF8] Bit Plane](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/HSCTF8_Writeup.md#glass-windows)
@@ -12,3 +18,4 @@
   - [[CDDC22] Steganographic Comparator and QR code crafting](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#stegano)
   - [Audio Steganography using Sonic Visualiser](https://github.com/Rookie441/CTF/blob/main/Categories/Steganography/Easy/tsunami/tsunami.md#tsunami)
   - [Blind Watermark Steganography](https://github.com/Rookie441/CTF/blob/main/Categories/Steganography/Easy/steg/steg.md#steg)
+</details>

@@ -1,10 +1,16 @@
 ## Forensics
-- Beginner
+<details>
+<summary>Beginner</summary>
+
   - [[BCACTF2.0] Nested file retrieval](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#infinite-zip)
   - [[BCACTF2.0] Zip file password cracking](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#secure-zip)
   - [[DownUnderCTF2021] Nested file retrieval with varying file extensions 🏆Best Unintended Solve 🏆](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/DownUnderCTF2021_Writeup.md#rabbit)
   - [[CDDC22] Analyzing audio for DTMF tones](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#pps)
-- Easy
+</details>
+
+<details>
+<summary>Easy</summary>
+
   - [[HackyHolidaysSpaceRace] Analyzing .vmem File for OS and Kernel Detection](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#stolen-research)
   - [[TamilCTF2021] File Cracking using fcrackzip and ccrypt](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TamilCTF2021_Writeup.md#chat-with-me)
   - [[EZCTF2022] Recovering Image with Corrupted Header using File Signature and Hex Editing](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/EZCTF2022_Writeup.md#grandma)
@@ -14,3 +20,4 @@
   - [[CDDC22] Cracking Passwords in Shadow File using John the Ripper](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#crack-the-password)
   - [Fixing PNG using CRC Checksum 🩸First Blooded 🩸](https://github.com/Rookie441/CTF/blob/main/Categories/Forensics/Easy/warmup-forensics/warmup-forensics.md#warmup-forensics)
   - [Nested file retrieval with encryption and varying file extensions using script](https://github.com/Rookie441/CTF/blob/main/Categories/Forensics/Easy/russia/russia.md#russia)
+</details>
