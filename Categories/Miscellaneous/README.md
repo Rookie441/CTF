@@ -13,3 +13,9 @@
   - [[DownUnderCTF2021] Remote Connection Quiz Solver with Pwntools Scripting](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/DownUnderCTF2021_Writeup.md#general-skills-quiz)
   - [[EZCTF2022] Leveraging Discord Bot Permissions for Privileged Access](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/EZCTF2022_Writeup.md#discord-bot-workaround)
 </details>
+
+<details open>
+<summary>Medium</summary>
+
+  - [Solving CAPTCHAs using Selenium and Tesseract OCR](https://github.com/Rookie441/CTF/blob/main/Categories/Miscellaneous/Medium/Gotcha/Gotcha.md#Gotcha)
+</details>
