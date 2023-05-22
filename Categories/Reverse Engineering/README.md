@@ -17,6 +17,7 @@
   - [[SEETF2022] Obtaining license key by Decompiling executable file in C# using jetbrains](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/SEETF2022_Writeup.md#bestsoftware)
   - [[CDDC22] Credentials Reversing using Ghidra listing interface](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#arm)
   - [[CDDC22] Flag Reversing using Ghidra listing interface and XOR Decryption](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#mips)
+  - [Reversing Web Assembly in JavaScript](https://github.com/Rookie441/CTF/blob/main/Categories/Reverse%20Engineering/Easy/web-assembly/web-assembly.md#web-assembly)
 </details>
 
 <details open>

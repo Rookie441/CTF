@@ -1,0 +1,28 @@
+import memory js_mem;
+
+export function check():int {
+  var b:int;
+  var a:int_ptr = 0;
+  var c:int = 1;
+  loop L_a {
+    br_table[B_c, B_d, B_e, ..B_f](a % 4)
+    label B_f:
+    b = 265;
+    goto B_b;
+    label B_e:
+    b = 59;
+    goto B_b;
+    label B_d:
+    b = 41;
+    goto B_b;
+    label B_c:
+    b = 31;
+    goto B_b;
+    label B_b:
+    c = (((b * (255 & a[0]) & 255) ^ ((a + 64)[0]:int & 255)) == 0) * c;
+    a = a + 1;
+    if (a < 46) continue L_a;
+  }
+  return c;
+}
+
