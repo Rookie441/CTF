@@ -1,11 +1,11 @@
 ## Network
-<details>
+<details open>
 <summary>Beginner</summary>
 
   - [[CDDC22] Basic String Search in Network Packet using Wireshark](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#simple-shark)
 </details>
 
-<details>
+<details open>
 <summary>Easy</summary>
 
   - [[UIUCTF2021] WPA Cracking using aircrack-ng](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/UIUCTF2021_Writeup.md#ceo)

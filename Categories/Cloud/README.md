@@ -1,5 +1,5 @@
 ## Cloud
-<details>
+<details open>
 <summary>Beginner</summary>
 
   - [[HackyHolidaysSpaceRace] TEASER Locked Out](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#teaser-locked-out)
@@ -8,7 +8,7 @@
   - [[DownUnderCTF2021] Cloud Bucket Enumeration using Google APIs](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/DownUnderCTF2021_Writeup.md#bad-bucket)
 </details>
 
-<details>
+<details open>
 <summary>Easy</summary>
 
   - [[HackyHolidaysSpaceRace] Enumerating the Cloud](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#enumerating-the-cloud)

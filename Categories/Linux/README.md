@@ -1,5 +1,5 @@
 ## Linux
-<details>
+<details open>
 <summary>Beginner</summary>
 
   - [[CDDC21] SSH Login](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC21_Writeup.md#opening-the-gate)

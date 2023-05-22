@@ -1,5 +1,5 @@
 ## Cryptography
-<details>
+<details open>
 <summary>Beginner</summary>
 
   - [[BCACTF2.0] Cryptogram Puzzle](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#cryptogram-puzzle)
@@ -24,7 +24,7 @@
   - [[CDDC22] Bruteforcing Vigenere Key](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#vigenere)
 </details>
 
-<details>
+<details open>
 <summary>Easy</summary>
 
   - [[BCACTF2.0] Normal RSA](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#easy-rsa)
@@ -35,7 +35,7 @@
   - [[CDDC22] Reversing Sha256 Hashes with CrackStation](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#hash-attack)
 </details>
 
-<details>
+<details open>
 <summary>Medium</summary>
 
   - [[CDDC22] Diffie Hellman Key Exchange with missing bytes](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#diffie-hellman)
@@ -44,7 +44,7 @@
   - [XOR Encryption on Fixed-Length Streams](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Medium/insecure-otp/insecure-otp.md#insecure-otp)
 </details>
 
-<details>
+<details open>
 <summary>Hard</summary>
 
   - [Coppersmith method - Håstad's broadcast attack](https://github.com/Rookie441/CTF/blob/main/Categories/Cryptography/Hard/copper-rsa/copper-rsa.md#copper-rsa)

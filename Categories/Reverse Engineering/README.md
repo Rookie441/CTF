@@ -1,5 +1,5 @@
 ## Reverse Engineering
-<details>
+<details open>
 <summary>Beginner</summary>
 
   - [[BCACTF2.0] Digital Logic Gates XOR](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#digitally-encrypted-1)
@@ -7,7 +7,7 @@
   - [[TamilCTF2021] Digital Logic Gates XOR and NOT](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/TamilCTF2021_Writeup.md#digital-play)
 </details>
 
-<details>
+<details open>
 <summary>Easy</summary>
 
   - [[CDDC21] Password Reversing in Ghidra using simple hexadecimal operations](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC21_Writeup.md#alarm)
@@ -19,7 +19,7 @@
   - [[CDDC22] Flag Reversing using Ghidra listing interface and XOR Decryption](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#mips)
 </details>
 
-<details>
+<details open>
 <summary>Medium</summary>
 
   - [Using Z3 Solver for Symbolic Constraint-Based Decoding Attack](https://github.com/Rookie441/CTF/blob/main/Categories/Reverse%20Engineering/Medium/speed-rev-humans/speed-rev-humans.md#speed-rev-humans)

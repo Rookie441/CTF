@@ -1,5 +1,5 @@
 ## Forensics
-<details>
+<details open>
 <summary>Beginner</summary>
 
   - [[BCACTF2.0] Nested file retrieval](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/BCACTF2.0_Writeup.md#infinite-zip)
@@ -8,7 +8,7 @@
   - [[CDDC22] Analyzing audio for DTMF tones](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/CDDC22_Writeup.md#pps)
 </details>
 
-<details>
+<details open>
 <summary>Easy</summary>
 
   - [[HackyHolidaysSpaceRace] Analyzing .vmem File for OS and Kernel Detection](https://github.com/Rookie441/CTF/blob/main/Storage/Writeups/Hacky_Holidays_Space_Race_Writeup.md#stolen-research)
